@@ -1,0 +1,6 @@
+.vscode
+
+__pycache__
+
+pretrained_model/*
+TRT_engine/*
