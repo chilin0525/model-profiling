@@ -1,0 +1,136 @@
+Warning: LBR backtrace method is not supported on this platform. DWARF backtrace method will be used.
+Collecting data...
+[TensorRT] VERBOSE: Deserialize required 2535860 microseconds.
+[TensorRT] VERBOSE: Allocated persistent device memory of size 194356736
+[TensorRT] VERBOSE: Allocated activation device memory of size 11026944
+[TensorRT] VERBOSE: Assigning persistent memory blocks for various profiles
+resnetv18_conv0_fwd + resnetv18_relu0_fwd: 0.082176ms
+resnetv18_pool0_fwd: 0.019648ms
+resnetv18_stage1_conv0_fwd + resnetv18_stage1_relu0_fwd: 0.020288ms
+resnetv18_stage1_conv1_fwd + resnetv18_stage1_relu1_fwd: 0.053152ms
+resnetv18_stage1_conv2_fwd: 0.042016ms
+resnetv18_stage1_conv3_fwd + resnetv18_stage1__plus0 + resnetv18_stage1_activation0: 0.04816ms
+resnetv18_stage1_conv4_fwd + resnetv18_stage1_relu2_fwd: 0.044544ms
+resnetv18_stage1_conv5_fwd + resnetv18_stage1_relu3_fwd: 0.05184ms
+resnetv18_stage1_conv6_fwd + resnetv18_stage1__plus1 + resnetv18_stage1_activation1: 0.047584ms
+resnetv18_stage1_conv7_fwd + resnetv18_stage1_relu4_fwd: 0.045472ms
+resnetv18_stage1_conv8_fwd + resnetv18_stage1_relu5_fwd: 0.05264ms
+resnetv18_stage1_conv9_fwd + resnetv18_stage1__plus2 + resnetv18_stage1_activation2: 0.047136ms
+resnetv18_stage2_conv0_fwd + resnetv18_stage2_relu0_fwd: 0.043424ms
+resnetv18_stage2_conv1_fwd + resnetv18_stage2_relu1_fwd: 0.074784ms
+resnetv18_stage2_conv2_fwd: 0.038848ms
+resnetv18_stage2_conv3_fwd + resnetv18_stage2__plus0 + resnetv18_stage2_activation0: 0.068512ms
+resnetv18_stage2_conv3_fwd + resnetv18_stage2__plus0 + resnetv18_stage2_activation0 output reformatter 0: 0.017952ms
+resnetv18_stage2_conv4_fwd + resnetv18_stage2_relu2_fwd: 0.040096ms
+resnetv18_stage2_conv5_fwd + resnetv18_stage2_relu3_fwd: 0.074592ms
+resnetv18_stage2_conv6_fwd + resnetv18_stage2__plus1 + resnetv18_stage2_activation1: 0.04448ms
+resnetv18_stage2_conv7_fwd + resnetv18_stage2_relu4_fwd: 0.039904ms
+resnetv18_stage2_conv8_fwd + resnetv18_stage2_relu5_fwd: 0.075168ms
+resnetv18_stage2_conv9_fwd + resnetv18_stage2__plus2 + resnetv18_stage2_activation2: 0.045568ms
+resnetv18_stage2_conv10_fwd + resnetv18_stage2_relu6_fwd: 0.040224ms
+resnetv18_stage2_conv11_fwd + resnetv18_stage2_relu7_fwd: 0.074496ms
+resnetv18_stage2_conv12_fwd + resnetv18_stage2__plus3 + resnetv18_stage2_activation3: 0.044608ms
+resnetv18_stage3_conv0_fwd + resnetv18_stage3_relu0_fwd: 0.038944ms
+resnetv18_stage3_conv1_fwd + resnetv18_stage3_relu1_fwd input reformatter 0: 0.008704ms
+resnetv18_stage3_conv1_fwd + resnetv18_stage3_relu1_fwd: 0.077632ms
+resnetv18_stage3_conv2_fwd input reformatter 0: 0.008864ms
+resnetv18_stage3_conv2_fwd: 0.06208ms
+resnetv18_stage3_conv3_fwd + resnetv18_stage3__plus0 + resnetv18_stage3_activation0: 0.10848ms
+resnetv18_stage3_conv3_fwd + resnetv18_stage3__plus0 + resnetv18_stage3_activation0 output reformatter 0: 0.013024ms
+resnetv18_stage3_conv4_fwd + resnetv18_stage3_relu2_fwd: 0.058464ms
+resnetv18_stage3_conv5_fwd + resnetv18_stage3_relu3_fwd: 0.077984ms
+resnetv18_stage3_conv6_fwd + resnetv18_stage3__plus1 + resnetv18_stage3_activation1: 0.063392ms
+resnetv18_stage3_conv7_fwd + resnetv18_stage3_relu4_fwd: 0.058848ms
+resnetv18_stage3_conv8_fwd + resnetv18_stage3_relu5_fwd: 0.077856ms
+resnetv18_stage3_conv9_fwd + resnetv18_stage3__plus2 + resnetv18_stage3_activation2: 0.062528ms
+resnetv18_stage3_conv10_fwd + resnetv18_stage3_relu6_fwd: 0.05776ms
+resnetv18_stage3_conv11_fwd + resnetv18_stage3_relu7_fwd: 0.077696ms
+resnetv18_stage3_conv12_fwd + resnetv18_stage3__plus3 + resnetv18_stage3_activation3: 0.062752ms
+resnetv18_stage3_conv13_fwd + resnetv18_stage3_relu8_fwd: 0.058432ms
+resnetv18_stage3_conv14_fwd + resnetv18_stage3_relu9_fwd: 0.077536ms
+resnetv18_stage3_conv15_fwd + resnetv18_stage3__plus4 + resnetv18_stage3_activation4: 0.063648ms
+resnetv18_stage3_conv16_fwd + resnetv18_stage3_relu10_fwd: 0.0584ms
+resnetv18_stage3_conv17_fwd + resnetv18_stage3_relu11_fwd: 0.078272ms
+resnetv18_stage3_conv18_fwd + resnetv18_stage3__plus5 + resnetv18_stage3_activation5: 0.062784ms
+resnetv18_stage3_conv19_fwd + resnetv18_stage3_relu12_fwd: 0.058272ms
+resnetv18_stage3_conv20_fwd + resnetv18_stage3_relu13_fwd: 0.077568ms
+resnetv18_stage3_conv21_fwd + resnetv18_stage3__plus6 + resnetv18_stage3_activation6: 0.063136ms
+resnetv18_stage3_conv22_fwd + resnetv18_stage3_relu14_fwd: 0.058688ms
+resnetv18_stage3_conv23_fwd + resnetv18_stage3_relu15_fwd: 0.077632ms
+resnetv18_stage3_conv24_fwd + resnetv18_stage3__plus7 + resnetv18_stage3_activation7: 0.063232ms
+resnetv18_stage3_conv25_fwd + resnetv18_stage3_relu16_fwd: 0.058144ms
+resnetv18_stage3_conv26_fwd + resnetv18_stage3_relu17_fwd: 0.077568ms
+resnetv18_stage3_conv27_fwd + resnetv18_stage3__plus8 + resnetv18_stage3_activation8: 0.062784ms
+resnetv18_stage3_conv28_fwd + resnetv18_stage3_relu18_fwd: 0.057536ms
+resnetv18_stage3_conv29_fwd + resnetv18_stage3_relu19_fwd: 0.077536ms
+resnetv18_stage3_conv30_fwd + resnetv18_stage3__plus9 + resnetv18_stage3_activation9: 0.062688ms
+resnetv18_stage3_conv31_fwd + resnetv18_stage3_relu20_fwd: 0.058112ms
+resnetv18_stage3_conv32_fwd + resnetv18_stage3_relu21_fwd: 0.077568ms
+resnetv18_stage3_conv33_fwd + resnetv18_stage3__plus10 + resnetv18_stage3_activation10: 0.063424ms
+resnetv18_stage3_conv34_fwd + resnetv18_stage3_relu22_fwd: 0.058208ms
+resnetv18_stage3_conv35_fwd + resnetv18_stage3_relu23_fwd: 0.077632ms
+resnetv18_stage3_conv36_fwd + resnetv18_stage3__plus11 + resnetv18_stage3_activation11: 0.062848ms
+resnetv18_stage3_conv37_fwd + resnetv18_stage3_relu24_fwd: 0.058688ms
+resnetv18_stage3_conv38_fwd + resnetv18_stage3_relu25_fwd: 0.077408ms
+resnetv18_stage3_conv39_fwd + resnetv18_stage3__plus12 + resnetv18_stage3_activation12: 0.063168ms
+resnetv18_stage3_conv40_fwd + resnetv18_stage3_relu26_fwd: 0.05824ms
+resnetv18_stage3_conv41_fwd + resnetv18_stage3_relu27_fwd: 0.077536ms
+resnetv18_stage3_conv42_fwd + resnetv18_stage3__plus13 + resnetv18_stage3_activation13: 0.0632ms
+resnetv18_stage3_conv43_fwd + resnetv18_stage3_relu28_fwd: 0.058944ms
+resnetv18_stage3_conv44_fwd + resnetv18_stage3_relu29_fwd: 0.077504ms
+resnetv18_stage3_conv45_fwd + resnetv18_stage3__plus14 + resnetv18_stage3_activation14: 0.06256ms
+resnetv18_stage3_conv46_fwd + resnetv18_stage3_relu30_fwd: 0.058464ms
+resnetv18_stage3_conv47_fwd + resnetv18_stage3_relu31_fwd: 0.078016ms
+resnetv18_stage3_conv48_fwd + resnetv18_stage3__plus15 + resnetv18_stage3_activation15: 0.063424ms
+resnetv18_stage3_conv49_fwd + resnetv18_stage3_relu32_fwd: 0.059008ms
+resnetv18_stage3_conv50_fwd + resnetv18_stage3_relu33_fwd: 0.084032ms
+resnetv18_stage3_conv51_fwd + resnetv18_stage3__plus16 + resnetv18_stage3_activation16: 0.062976ms
+resnetv18_stage3_conv52_fwd + resnetv18_stage3_relu34_fwd: 0.058688ms
+resnetv18_stage3_conv53_fwd + resnetv18_stage3_relu35_fwd: 0.077312ms
+resnetv18_stage3_conv54_fwd + resnetv18_stage3__plus17 + resnetv18_stage3_activation17: 0.062304ms
+resnetv18_stage3_conv55_fwd + resnetv18_stage3_relu36_fwd: 0.058816ms
+resnetv18_stage3_conv56_fwd + resnetv18_stage3_relu37_fwd: 0.077632ms
+resnetv18_stage3_conv57_fwd + resnetv18_stage3__plus18 + resnetv18_stage3_activation18: 0.06256ms
+resnetv18_stage3_conv58_fwd + resnetv18_stage3_relu38_fwd: 0.058432ms
+resnetv18_stage3_conv59_fwd + resnetv18_stage3_relu39_fwd: 0.077312ms
+resnetv18_stage3_conv60_fwd + resnetv18_stage3__plus19 + resnetv18_stage3_activation19: 0.062656ms
+resnetv18_stage3_conv61_fwd + resnetv18_stage3_relu40_fwd: 0.059008ms
+resnetv18_stage3_conv62_fwd + resnetv18_stage3_relu41_fwd: 0.077984ms
+resnetv18_stage3_conv63_fwd + resnetv18_stage3__plus20 + resnetv18_stage3_activation20: 0.063232ms
+resnetv18_stage3_conv64_fwd + resnetv18_stage3_relu42_fwd: 0.05776ms
+resnetv18_stage3_conv65_fwd + resnetv18_stage3_relu43_fwd: 0.077952ms
+resnetv18_stage3_conv66_fwd + resnetv18_stage3__plus21 + resnetv18_stage3_activation21: 0.062848ms
+resnetv18_stage3_conv67_fwd + resnetv18_stage3_relu44_fwd: 0.058368ms
+resnetv18_stage3_conv68_fwd + resnetv18_stage3_relu45_fwd: 0.077536ms
+resnetv18_stage3_conv69_fwd + resnetv18_stage3__plus22 + resnetv18_stage3_activation22: 0.063392ms
+resnetv18_stage3_conv69_fwd + resnetv18_stage3__plus22 + resnetv18_stage3_activation22 output reformatter 0: 0.013312ms
+resnetv18_stage4_conv0_fwd + resnetv18_stage4_relu0_fwd: 0.064704ms
+resnetv18_stage4_conv1_fwd + resnetv18_stage4_relu1_fwd input reformatter 0: 0.008864ms
+resnetv18_stage4_conv1_fwd + resnetv18_stage4_relu1_fwd: 0.108128ms
+resnetv18_stage4_conv2_fwd: 0.058944ms
+resnetv18_stage4_conv3_fwd + resnetv18_stage4__plus0 + resnetv18_stage4_activation0 input reformatter 1: 0.011072ms
+resnetv18_stage4_conv3_fwd + resnetv18_stage4__plus0 + resnetv18_stage4_activation0: 0.187744ms
+resnetv18_stage4_conv3_fwd + resnetv18_stage4__plus0 + resnetv18_stage4_activation0 output reformatter 0: 0.011776ms
+resnetv18_stage4_conv4_fwd + resnetv18_stage4_relu2_fwd: 0.09744ms
+resnetv18_stage4_conv5_fwd + resnetv18_stage4_relu3_fwd: 0.107904ms
+resnetv18_stage4_conv6_fwd + resnetv18_stage4__plus1 + resnetv18_stage4_activation1: 839.215ms
+resnetv18_stage4_conv7_fwd + resnetv18_stage4_relu4_fwd: 0.118848ms
+resnetv18_stage4_conv8_fwd + resnetv18_stage4_relu5_fwd: 0.10624ms
+resnetv18_stage4_conv9_fwd + resnetv18_stage4__plus2 + resnetv18_stage4_activation2: 0.141312ms
+resnetv18_pool1_fwd: 0.117152ms
+resnetv18_dense0_fwd: 0.436672ms
+src/inference.py:143: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  percentage = F.softmax(output)
+Processing events...
+Saving temporary "/tmp/nsys-report-f542-5c2a-f898-1d8e.qdstrm" file to disk...
+
+Creating final output files...
+Processing [0%                                                                ]Processing [1%                                                                ]Processing [2%                                                                ]Processing [1%                                                                ]Processing [0%                                                                ]Processing [4%                                                                ]Processing [===9%                                                             ]Processing [===8%                                                             ]Processing [==7%                                                              ]Processing [=6%                                                               ]Processing [=5%                                                               ]Processing [4%                                                                ]Processing [3%                                                                ]Processing [2%                                                                ]Processing [1%                                                                ]Processing [2%                                                                ]Processing [3%                                                                ]Processing [4%                                                                ]Processing [=6%                                                               ]Processing [==7%                                                              ]Processing [===8%                                                             ]Processing [===9%                                                             ]Processing [====11%                                                           ]Processing [====12%                                                           ]Processing [=====13%                                                          ]Processing [======14%                                                         ]Processing [======15%                                                         ]Processing [========17%                                                       ]Processing [========18%                                                       ]Processing [=========19%                                                      ]Processing [==========20%                                                     ]Processing [===========22%                                                    ]Processing [============23%                                                   ]Processing [============24%                                                   ]Processing [=============25%                                                  ]Processing [==============27%                                                 ]Processing [===============28%                                                ]Processing [================29%                                               ]Processing [================30%                                               ]Processing [==================32%                                             ]Processing [==================33%                                             ]Processing [===================34%                                            ]Processing [====================35%                                           ]Processing [=====================37%                                          ]Processing [======================38%                                         ]Processing [======================39%                                         ]Processing [=======================40%                                        ]Processing [========================42%                                       ]Processing [=========================43%                                      ]Processing [==========================44%                                     ]Processing [==========================45%                                     ]Processing [============================47%                                   ]Processing [============================48%                                   ]Processing [=============================49%                                  ]Processing [==============================50%                                 ]Processing [===============================52%                                ]Processing [===============================53%                                ]Processing [================================54%                               ]Processing [=================================55%                              ]Processing [==================================57%                             ]Processing [===================================58%                            ]Processing [===================================59%                            ]Processing [====================================60%                           ]Processing [=====================================62%                          ]Processing [======================================63%                         ]Processing [=======================================64%                        ]Processing [=======================================65%                        ]Processing [=========================================67%                      ]Processing [=========================================68%                      ]Processing [==========================================69%                     ]Processing [===========================================70%                    ]Processing [============================================72%                   ]Processing [=============================================73%                  ]Processing [=============================================74%                  ]Processing [==============================================75%                 ]Processing [===============================================77%                ]Processing [================================================78%               ]Processing [=================================================79%              ]Processing [=================================================80%              ]Processing [===================================================82%            ]Processing [===================================================83%            ]Processing [====================================================84%           ]Processing [=====================================================85%          ]Processing [======================================================87%         ]Processing [=======================================================88%        ]Processing [=======================================================89%        ]Processing [========================================================90%       ]Processing [=========================================================92%      ]Processing [==========================================================93%     ]Processing [===========================================================94%    ]Processing [===========================================================95%    ]Processing [============================================================96%   ]Processing [=============================================================97%  ]Processing [=============================================================98%  ]Processing [==============================================================99% ]Processing [==============================================================100%]
+Saved report file to "/tmp/nsys-report-f542-5c2a-f898-1d8e.qdrep"
+Exporting 192394 events: [1%                                                  ]Exporting 192394 events: [2%                                                  ]Exporting 192394 events: [3%                                                  ]Exporting 192394 events: [4%                                                  ]Exporting 192394 events: [5%                                                  ]Exporting 192394 events: [=6%                                                 ]Exporting 192394 events: [=7%                                                 ]Exporting 192394 events: [==8%                                                ]Exporting 192394 events: [==9%                                                ]Exporting 192394 events: [==10%                                               ]Exporting 192394 events: [==11%                                               ]Exporting 192394 events: [===12%                                              ]Exporting 192394 events: [===13%                                              ]Exporting 192394 events: [====14%                                             ]Exporting 192394 events: [====15%                                             ]Exporting 192394 events: [=====16%                                            ]Exporting 192394 events: [=====17%                                            ]Exporting 192394 events: [======18%                                           ]Exporting 192394 events: [======19%                                           ]Exporting 192394 events: [=======20%                                          ]Exporting 192394 events: [=======21%                                          ]Exporting 192394 events: [========22%                                         ]Exporting 192394 events: [========23%                                         ]Exporting 192394 events: [=========24%                                        ]Exporting 192394 events: [==========25%                                       ]Exporting 192394 events: [==========26%                                       ]Exporting 192394 events: [===========27%                                      ]Exporting 192394 events: [===========28%                                      ]Exporting 192394 events: [============29%                                     ]Exporting 192394 events: [============30%                                     ]Exporting 192394 events: [=============31%                                    ]Exporting 192394 events: [=============32%                                    ]Exporting 192394 events: [==============33%                                   ]Exporting 192394 events: [==============34%                                   ]Exporting 192394 events: [===============35%                                  ]Exporting 192394 events: [===============36%                                  ]Exporting 192394 events: [================37%                                 ]Exporting 192394 events: [================38%                                 ]Exporting 192394 events: [=================39%                                ]Exporting 192394 events: [=================40%                                ]Exporting 192394 events: [==================41%                               ]Exporting 192394 events: [==================42%                               ]Exporting 192394 events: [===================43%                              ]Exporting 192394 events: [===================44%                              ]Exporting 192394 events: [====================45%                             ]Exporting 192394 events: [====================46%                             ]Exporting 192394 events: [=====================47%                            ]Exporting 192394 events: [=====================48%                            ]Exporting 192394 events: [======================49%                           ]Exporting 192394 events: [=======================50%                          ]Exporting 192394 events: [=======================51%                          ]Exporting 192394 events: [========================52%                         ]Exporting 192394 events: [========================53%                         ]Exporting 192394 events: [=========================54%                        ]Exporting 192394 events: [=========================55%                        ]Exporting 192394 events: [==========================56%                       ]Exporting 192394 events: [==========================57%                       ]Exporting 192394 events: [===========================58%                      ]Exporting 192394 events: [===========================59%                      ]Exporting 192394 events: [============================60%                     ]Exporting 192394 events: [============================61%                     ]Exporting 192394 events: [=============================62%                    ]Exporting 192394 events: [=============================63%                    ]Exporting 192394 events: [==============================64%                   ]Exporting 192394 events: [==============================65%                   ]Exporting 192394 events: [===============================66%                  ]Exporting 192394 events: [===============================67%                  ]Exporting 192394 events: [================================68%                 ]Exporting 192394 events: [================================69%                 ]Exporting 192394 events: [=================================70%                ]Exporting 192394 events: [=================================71%                ]Exporting 192394 events: [==================================72%               ]Exporting 192394 events: [==================================73%               ]Exporting 192394 events: [===================================74%              ]Exporting 192394 events: [====================================75%             ]Exporting 192394 events: [====================================76%             ]Exporting 192394 events: [=====================================77%            ]Exporting 192394 events: [=====================================78%            ]Exporting 192394 events: [======================================79%           ]Exporting 192394 events: [======================================80%           ]Exporting 192394 events: [=======================================81%          ]Exporting 192394 events: [=======================================82%          ]Exporting 192394 events: [========================================83%         ]Exporting 192394 events: [========================================84%         ]Exporting 192394 events: [=========================================85%        ]Exporting 192394 events: [=========================================86%        ]Exporting 192394 events: [==========================================87%       ]Exporting 192394 events: [==========================================88%       ]Exporting 192394 events: [===========================================89%      ]Exporting 192394 events: [===========================================90%      ]Exporting 192394 events: [============================================91%     ]Exporting 192394 events: [============================================92%     ]Exporting 192394 events: [=============================================93%    ]Exporting 192394 events: [=============================================94%    ]Exporting 192394 events: [==============================================95%   ]Exporting 192394 events: [==============================================96%   ]Exporting 192394 events: [===============================================97%  ]Exporting 192394 events: [===============================================98%  ]Exporting 192394 events: [================================================99% ]Exporting 192394 events: [================================================100%]
+
+Exported successfully to
+/tmp/nsys-report-f542-5c2a-f898-1d8e.sqlite
+Report file moved to "/home/chilin/model-profiling/net.qdrep"
+Report file moved to "/home/chilin/model-profiling/net.sqlite"
+
