@@ -6,11 +6,18 @@ from colors import bcolors
 """
 build tensorRT engine for every ONNX model
 """
-def build(models,prefix):
+
+
+def build(models, prefix, gpu_name, gpu_idx):
     for model_name in models:
-        print(bcolors.OKGREEN+" build " + bcolors.ENDC + model_name)
-        build_command = "python3 src/build_engine.py " + prefix + model_name \
-                        + " > log/build/" + prefix + model_name +" 2>&1"
+        build_command = \
+            "python3 src/build_engine.py " + prefix + model_name \
+            + " " + gpu_idx + " " + gpu_name \
+            + " > log/build/" + prefix + model_name \
+            + "-" + gpu_name + " 2>&1"
+        print(bcolors.OKGREEN+" build " + bcolors.ENDC + model_name + ": ")
+        print("       device: "+gpu_name+"("+gpu_idx+")")        
+        print("       "+build_command)
         os.system(build_command)        
 
 
@@ -20,57 +27,96 @@ inference command example:
 generate summary of trace reports:
     nsys stats -r gputrace net.qdrep -f json -o ./log/nsys/  --force-overwrite true
 """
-def inference(models,prefix):
+
+
+def inference(models, prefix, gpu_name, gpu_idx):
     for model_name in models:
-        build_command = "nsys profile -f true -o net --export sqlite python3 src/inference.py " + \
-            prefix+model_name+" > log/inference/"+prefix+model_name+" 2>&1"
-        nsys_command = "nsys stats -r gputrace net.qdrep -f json -o ./log/nsys/"+model_name+"  --force-overwrite true"
-        print(bcolors.OKGREEN+" inference " + bcolors.ENDC + model_name + ": " + build_command)
-        os.system(build_command)
-        print(bcolors.OKCYAN +" nsys summary: "+nsys_command)
+        # 1. do inference and save TensorRT verbose message to ./log/inference
+        # 2. use nsys to generate message about kernel exection time and device message
+        inference_command = "nsys profile -f true -o net --export sqlite python3 src/inference.py " + \
+            prefix+model_name+" "+gpu_idx+ " " + gpu_name + \
+            " > log/inference/"+prefix+model_name+"-"+gpu_name+" 2>&1"
+        # to summerize nsys message and save to json file
+        nsys_command = "nsys stats -r gputrace net.qdrep -f json -o ./log/nsys/"+ model_name + "-" + gpu_name +"  --force-overwrite true"
+        print(bcolors.OKGREEN+" inference stage" + bcolors.ENDC)
+        print("           model: "+model_name)
+        print("           device: "+gpu_name+"("+gpu_idx+")")
+        print("           inference command: "+inference_command)
+        print("           tensorrt log path: ./log/inference/"+prefix+model_name)
+        print("           nsys      command: "+ nsys_command)
+        print("           nsys     log path: ./log/nsys/"+ model_name + "-" + gpu_name)
+        os.system(inference_command)
         os.system(nsys_command)
 
 """
+execute commnad:
+    python3 ./src/nsys_parser.py ./log/nsys/googlenet_gputrace.json ./inference_time/nsys/googlenet_gpu_trace  showall
+                                    <filename be parsed>                <result path>                         <command>          
 command:
     onlyinference: show kernel and execution time without MEM copy (HtoD, DtoH, DtoD)
     showall      : show everything including kernel executing and Memory copy
 output format:
     <execute time> ns  <kernel name>|<Memory operation>
 """
-def nsys_parsing(json_files):
+
+
+def nsys_parsing(json_files, gpu_name, gpu_idx):
     for json_filename in json_files:
-        command = "onlyinference"
-        print(bcolors.OKGREEN+" parse nsys "+bcolors.ENDC+json_filename)
-        os.system("python3 ./src/nsys_parser.py ./log/nsys/"+json_filename+ \
-                  "_gputrace.json ./inference_time/nsys/"+json_filename+"_gputrace " + command)
+        command = "showall"
+        src_path = "./log/nsys/"+json_filename+"-"+gpu_name
+        target_path = "./inference_time/nsys/" + json_filename+"-"+gpu_name+"_gputrace"
+        print(bcolors.OKGREEN+" parse nsys log: "+bcolors.ENDC, end="")
+        print("%50s to %30s" % (src_path, target_path))
+        os.system("python3 ./src/nsys_parser.py ./log/nsys/"+json_filename+"-"+gpu_name + \
+                  "_gputrace.json ./inference_time/nsys/"+json_filename+"-"+gpu_name+"_gputrace " + command)
 
 
 """
-example command: 
+execute command: 
     python3 src/inference_trt_parser.py ./log/inference/ONNX/googlenet-9 > inference_time/TensorRT/googlenet-9
 """
-def trt_inference_parsing(prefix, files):
+
+
+def trt_inference_parsing(prefix, files, gpu_name, gpu_idx):
     for file_name in files:
-        print(bcolors.OKGREEN+" parse trt "+bcolors.ENDC+file_name)
+        src_path = "./log/inference/" + prefix+file_name+"-"+gpu_name
+        target_path = "inference_time/TensorRT/"+file_name+"-"+gpu_name
+        print(bcolors.OKGREEN+" parse trt  log: "+bcolors.ENDC,end="")
+        print("%50s to %30s" % (src_path, target_path))
         os.system("python3 src/inference_trt_parser.py ./log/inference/"+ \
-                  prefix+file_name + " > inference_time/TensorRT/"+file_name)
+                  prefix+file_name+"-"+gpu_name + " > inference_time/TensorRT/"+file_name+"-"+gpu_name)
+
 
 def main():
+
+    # set up your GPU info
+    # Warning:  using multiple GPU, 
+    #           You should to use cudaSetDevice() before calling the builder or deserializing the engine
+    gpu= {
+        "RTX_2060":"0",
+        "GTX_1080_Ti":"1"
+    }
+
     prefix_pytorch = "Pytorch/"
     prefix_onnx = "ONNX/"
     model_name_pytorch = ["googlenet", "resnet50", "resnet101"]
     model_name_onnx = ["googlenet-9", "resnet50-v1-7", "resnet101-v1-7"]
     
-    build(model_name_pytorch, prefix_pytorch)
-    inference(model_name_pytorch, prefix_pytorch)
-    build(model_name_onnx,prefix_onnx)
-    inference(model_name_onnx, prefix_onnx)
+    for gpu_name,gpu_idx in gpu.items():
     
-    nsys_parsing(model_name_onnx)
-    nsys_parsing(model_name_pytorch)
+        # build(model_name_pytorch, prefix_pytorch, gpu_name, gpu_idx)
+        # inference(model_name_pytorch, prefix_pytorch, gpu_name, gpu_idx)
+        # build(model_name_onnx, prefix_onnx, gpu_name, gpu_idx)
+        # inference(model_name_onnx, prefix_onnx, gpu_name, gpu_idx)
+        
+        nsys_parsing(model_name_onnx, gpu_name, gpu_idx)
+        nsys_parsing(model_name_pytorch, gpu_name, gpu_idx)
 
-    trt_inference_parsing(prefix_onnx, model_name_onnx)
-    trt_inference_parsing(prefix_pytorch, model_name_pytorch)
+        # trt_inference_parsing(prefix_onnx, model_name_onnx, gpu_name, gpu_idx)
+        # trt_inference_parsing(prefix_pytorch, model_name_pytorch, gpu_name, gpu_idx)
+
+    os.system("rm net.qdrep")
+    os.system("rm net.sqlite")
 
 if __name__=="__main__":
     main()
