@@ -7,6 +7,19 @@ import torch
 import numpy as np
 import torch.nn.functional as F
 import sys
+import pycuda.driver as cuda
+import pycuda.autoinit
+from ctypes import cdll, c_char_p
+
+libcudart = cdll.LoadLibrary('libcudart.so')
+libcudart.cudaGetErrorString.restype = c_char_p
+
+
+def cudaSetDevice(device_idx):
+    ret = libcudart.cudaSetDevice(device_idx)
+    if ret != 0:
+        error_string = libcudart.cudaGetErrorString(ret)
+        raise RuntimeError("cudaSetDevice: " + error_string)
 
 
 TRT_LOGGER = trt.Logger(trt.Logger.VERBOSE)
@@ -102,10 +115,16 @@ def main():
 
     """load tensorRT engine"""
     try:
-        trt_path = "./TRT_engine/"+sys.argv[1]+".plan"
+        trt_path = "./TRT_engine/"+sys.argv[1]+"-"+sys.argv[3]+".plan"
+        gpu_idx = sys.argv[2]
+        gpu_name = sys.argv[3]
     except IndexError:
         print("Index error")
         print("You should input model name as CLI arguments")
+
+    # To select the GPU, use cudaSetDevice() 
+    # before calling the builder or deserializing the engine
+    cudaSetDevice(int(gpu_idx))
 
     resnet_trt = load_engine(trt_runtime, trt_path)
 
@@ -142,8 +161,7 @@ def main():
     _, index = torch.sort(output, descending=True)
     percentage = F.softmax(output)
 
-    
-    sys.stdout = open("inference_result/"+sys.argv[1],"w+")
+    sys.stdout = open("inference_result/"+sys.argv[1]+"-"+sys.argv[3], "w+")
     result_trt = [(label[i], percentage[i].item()*100) for i in index[:5]]
     for j in result_trt:
         print("%-25s | %08.5f" % (j[0], j[1])+"%")

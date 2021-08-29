@@ -5,11 +5,16 @@ def parsing(file_name):
     with open(file_name, "r") as f:
         data = f.read().split('\n')
     layers = []
+    total_time = 0.0
     for i in data:
         if(re.findall("\d+.\d+ms", i) != []):
             layers.append(i)
-            print("%12s, %s" % (re.findall("\d+.\d+ms", i)[0], re.split("\d+.\d+ms", i)[0]))
+            total_time += (float(re.findall("\d+.\d+ms", i)[0].split("ms")[0]))
+            print("%-12s, %s" % (re.findall("\d+.\d+ms", i)[0], re.split("\d+.\d+ms", i)[0]))
 
+    print("="*50)
+    print("summary:")
+    print("total time: %f ms" % (total_time))
 
 def main():
     try:

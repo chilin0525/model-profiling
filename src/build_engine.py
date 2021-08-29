@@ -3,10 +3,25 @@ import torch
 import torchvision
 import tensorrt as trt
 import sys
+import pycuda.driver as cuda
+import pycuda.autoinit
+from ctypes import cdll, c_char_p
+
+libcudart = cdll.LoadLibrary('libcudart.so')
+libcudart.cudaGetErrorString.restype = c_char_p
+
+
+def cudaSetDevice(device_idx):
+    ret = libcudart.cudaSetDevice(device_idx)
+    if ret != 0:
+        error_string = libcudart.cudaGetErrorString(ret)
+        raise RuntimeError("cudaSetDevice: " + error_string)
+
 
 # use Logger.VERBOSE to output optimization process
 TRT_LOGGER = trt.Logger(trt.Logger.VERBOSE)
 trt_runtime = trt.Runtime(TRT_LOGGER)
+
 
 def build_engine(onnx_path, shape=[1, 224, 224, 3]):
    """
@@ -40,8 +55,12 @@ def load_engine(trt_runtime, plan_path):
 
 def main():
     try:
+        # source pretrained model path
         onnx_path = "./pretrained_model/"+sys.argv[1]+".onnx"
-        trt_path = "./TRT_engine/"+sys.argv[1]+".plan"
+        # engine save path
+        trt_path = "./TRT_engine/"+sys.argv[1]+"-"+sys.argv[3]+".plan"
+        gpu_idx = sys.argv[2]
+        gpu_name = sys.argv[3]
     except IndexError:
         print("Index error")
         print("You should input model name as CLI arguments")
@@ -55,6 +74,12 @@ def main():
     d1 = model.graph.input[0].type.tensor_type.shape.dim[2].dim_value
     d2 = model.graph.input[0].type.tensor_type.shape.dim[3].dim_value
     shape = [batch_size, d0, d1, d2]
+
+    # choose GPU before build engine
+    # ref: 
+    #   https://docs.nvidia.com/deeplearning/tensorrt/developer-guide/index.html#faq
+    #   https://github.com/NVIDIA/TensorRT/issues/1050
+    cudaSetDevice(int(gpu_idx))
 
     # build engine and start timer to get total build time
     trt_engine = build_engine(onnx_path, shape)
