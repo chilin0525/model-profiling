@@ -4,7 +4,7 @@
     * [Installation Guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker)
     * [Github repo NVIDIA nvidia-docker](https://github.com/NVIDIA/nvidia-docker)
 
-|model name|model time|gpu type|MAX HtoD|MAX DtoD|NAX DtoH|other
+|model name|model time|gpu type|MAX HtoD|MAX DtoD|MAX DtoH|other
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |googlenet-9-RTX_2060|7.135825|['GeForce RTX 2060 (0)']|5.133472 ms|0.042272 ms|0.001343 ms|0.140415 ms|
 |resnet50-v1-7-RTX_2060|22.124697|['GeForce RTX 2060 (0)']|17.334518 ms|0.064512 ms|0.001952 ms|0.206175 ms|
