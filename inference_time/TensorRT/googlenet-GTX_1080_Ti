@@ -1,0 +1,75 @@
+0.010848ms  , 345: 
+0.010528ms  , 352: 
+0.00288ms   , 359: 
+0.09088ms   , Gather_1: 
+0.068192ms  , Gather_8: 
+0.06736ms   , Gather_15: 
+0.009824ms  , 348 + (Unnamed Layer* 4) [Shuffle] + Mul_4 + 350 + (Unnamed Layer* 7) [Shuffle] + Add_6: 
+0.006752ms  , 355 + (Unnamed Layer* 13) [Shuffle] + Mul_11 + 357 + (Unnamed Layer* 16) [Shuffle] + Add_13: 
+0.006272ms  , 362 + (Unnamed Layer* 22) [Shuffle] + Mul_18 + 364 + (Unnamed Layer* 25) [Shuffle] + Add_20: 
+0.048032ms  , Conv_22 + Relu_23: 
+0.016608ms  , MaxPool_24: 
+0.024064ms  , Conv_25 + Relu_26: 
+0.063072ms  , Conv_27 + Relu_28: 
+0.014656ms  , MaxPool_29: 
+0.029728ms  , Conv_30 + Relu_31 || Conv_32 + Relu_33 || Conv_36 + Relu_37: 
+0.00832ms   , MaxPool_40: 
+0.01376ms   , Conv_41 + Relu_42: 
+0.031904ms  , Conv_34 + Relu_35: 
+0.014848ms  , Conv_38 + Relu_39: 
+0.006464ms  , 380 copy: 
+0.038976ms  , Conv_44 + Relu_45 || Conv_46 + Relu_47 || Conv_50 + Relu_51: 
+0.00896ms   , MaxPool_54: 
+0.01632ms   , Conv_55 + Relu_56: 
+0.038272ms  , Conv_48 + Relu_49: 
+0.02224ms   , Conv_52 + Relu_53: 
+0.0072ms    , 400 copy: 
+0.011104ms  , MaxPool_58: 
+0.026144ms  , Conv_59 + Relu_60 || Conv_61 + Relu_62 || Conv_65 + Relu_66: 
+0.008448ms  , MaxPool_69: 
+0.017312ms  , Conv_70 + Relu_71: 
+0.027488ms  , Conv_63 + Relu_64: 
+0.014304ms  , Conv_67 + Relu_68: 
+0.006272ms  , 421 copy: 
+0.027968ms  , Conv_73 + Relu_74 || Conv_75 + Relu_76 || Conv_79 + Relu_80: 
+0.008224ms  , MaxPool_83: 
+0.017408ms  , Conv_84 + Relu_85: 
+0.028288ms  , Conv_77 + Relu_78: 
+0.01536ms   , Conv_81 + Relu_82: 
+0.0056ms    , 441 copy: 
+0.027872ms  , Conv_87 + Relu_88 || Conv_89 + Relu_90 || Conv_93 + Relu_94: 
+0.008448ms  , MaxPool_97: 
+0.017152ms  , Conv_98 + Relu_99: 
+0.030784ms  , Conv_91 + Relu_92: 
+0.015584ms  , Conv_95 + Relu_96: 
+0.005856ms  , 461 copy: 
+0.027616ms  , Conv_107 + Relu_108 || Conv_101 + Relu_102 || Conv_103 + Relu_104: 
+0.007872ms  , MaxPool_111: 
+0.017248ms  , Conv_112 + Relu_113: 
+0.035744ms  , Conv_105 + Relu_106: 
+0.016ms     , Conv_109 + Relu_110: 
+0.005792ms  , 481 copy: 
+0.0336ms    , Conv_115 + Relu_116 || Conv_117 + Relu_118 || Conv_121 + Relu_122: 
+0.007872ms  , MaxPool_125: 
+0.020672ms  , Conv_126 + Relu_127: 
+0.035872ms  , Conv_119 + Relu_120: 
+0.0168ms    , Conv_123 + Relu_124: 
+0.0064ms    , 501 copy: 
+0.008576ms  , MaxPool_129: 
+0.022368ms  , Conv_130 + Relu_131 || Conv_132 + Relu_133 || Conv_136 + Relu_137: 
+0.008032ms  , MaxPool_140: 
+0.02176ms   , Conv_141 + Relu_142: 
+0.025696ms  , Conv_134 + Relu_135: 
+0.011648ms  , Conv_138 + Relu_139: 
+0.005408ms  , 522 copy: 
+0.025952ms  , Conv_144 + Relu_145 || Conv_146 + Relu_147 || Conv_150 + Relu_151: 
+0.006464ms  , MaxPool_154: 
+0.019968ms  , Conv_155 + Relu_156: 
+0.027936ms  , Conv_148 + Relu_149: 
+0.01232ms   , Conv_152 + Relu_153: 
+0.006048ms  , 542 copy: 
+0.0096ms    , GlobalAveragePool_158: 
+0.024576ms  , Gemm_160: 
+==================================================
+summary:
+total time: 1.464416 ms

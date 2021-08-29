@@ -1,0 +1,69 @@
+0.081984ms  , node_of_conv1/7x7_s2_1 + (Unnamed Layer* 1) [Activation]: 
+0.015552ms  , (Unnamed Layer* 2) [Pooling]: 
+0.276832ms  , (Unnamed Layer* 3) [LRN]: 
+0.024224ms  , node_of_conv2/3x3_reduce_1 + (Unnamed Layer* 5) [Activation]: 
+0.060352ms  , node_of_conv2/3x3_1 + (Unnamed Layer* 7) [Activation]: 
+0.095456ms  , (Unnamed Layer* 8) [LRN]: 
+0.016032ms  , (Unnamed Layer* 9) [Pooling]: 
+0.032128ms  , node_of_inception_3a/1x1_1 + (Unnamed Layer* 11) [Activation] || node_of_inception_3a/3x3_reduce_1 + (Unnamed Layer* 13) [Activation] || node_of_inception_3a/5x5_reduce_1 + (Unnamed Layer* 17) [Activation]: 
+0.008288ms  , (Unnamed Layer* 20) [Pooling]: 
+0.013728ms  , node_of_inception_3a/pool_proj_1 + (Unnamed Layer* 22) [Activation]: 
+0.0296ms    , node_of_inception_3a/3x3_1 + (Unnamed Layer* 15) [Activation]: 
+0.014016ms  , node_of_inception_3a/5x5_1 + (Unnamed Layer* 19) [Activation]: 
+0.005632ms  , inception_3a/1x1_2 copy: 
+0.0368ms    , node_of_inception_3b/1x1_1 + (Unnamed Layer* 25) [Activation] || node_of_inception_3b/3x3_reduce_1 + (Unnamed Layer* 27) [Activation] || node_of_inception_3b/5x5_reduce_1 + (Unnamed Layer* 31) [Activation]: 
+0.008544ms  , (Unnamed Layer* 34) [Pooling]: 
+0.016608ms  , node_of_inception_3b/pool_proj_1 + (Unnamed Layer* 36) [Activation]: 
+0.037024ms  , node_of_inception_3b/3x3_1 + (Unnamed Layer* 29) [Activation]: 
+0.03008ms   , node_of_inception_3b/5x5_1 + (Unnamed Layer* 33) [Activation]: 
+0.007008ms  , inception_3b/1x1_2 copy: 
+0.010336ms  , (Unnamed Layer* 38) [Pooling]: 
+0.025888ms  , node_of_inception_4a/1x1_1 + (Unnamed Layer* 40) [Activation] || node_of_inception_4a/3x3_reduce_1 + (Unnamed Layer* 42) [Activation] || node_of_inception_4a/5x5_reduce_1 + (Unnamed Layer* 46) [Activation]: 
+0.008096ms  , (Unnamed Layer* 49) [Pooling]: 
+0.017408ms  , node_of_inception_4a/pool_proj_1 + (Unnamed Layer* 51) [Activation]: 
+0.026464ms  , node_of_inception_4a/3x3_1 + (Unnamed Layer* 44) [Activation]: 
+0.013536ms  , node_of_inception_4a/5x5_1 + (Unnamed Layer* 48) [Activation]: 
+0.005696ms  , inception_4a/1x1_2 copy: 
+0.027232ms  , node_of_inception_4b/1x1_1 + (Unnamed Layer* 54) [Activation] || node_of_inception_4b/3x3_reduce_1 + (Unnamed Layer* 56) [Activation] || node_of_inception_4b/5x5_reduce_1 + (Unnamed Layer* 60) [Activation]: 
+0.007808ms  , (Unnamed Layer* 63) [Pooling]: 
+0.016608ms  , node_of_inception_4b/pool_proj_1 + (Unnamed Layer* 65) [Activation]: 
+0.027456ms  , node_of_inception_4b/3x3_1 + (Unnamed Layer* 58) [Activation]: 
+0.01808ms   , node_of_inception_4b/5x5_1 + (Unnamed Layer* 62) [Activation]: 
+0.005568ms  , inception_4b/1x1_2 copy: 
+0.026912ms  , node_of_inception_4c/1x1_1 + (Unnamed Layer* 68) [Activation] || node_of_inception_4c/3x3_reduce_1 + (Unnamed Layer* 70) [Activation] || node_of_inception_4c/5x5_reduce_1 + (Unnamed Layer* 74) [Activation]: 
+0.007744ms  , (Unnamed Layer* 77) [Pooling]: 
+0.01712ms   , node_of_inception_4c/pool_proj_1 + (Unnamed Layer* 79) [Activation]: 
+0.029824ms  , node_of_inception_4c/3x3_1 + (Unnamed Layer* 72) [Activation]: 
+0.017792ms  , node_of_inception_4c/5x5_1 + (Unnamed Layer* 76) [Activation]: 
+0.005696ms  , inception_4c/1x1_2 copy: 
+0.026496ms  , node_of_inception_4d/5x5_reduce_1 + (Unnamed Layer* 88) [Activation] || node_of_inception_4d/1x1_1 + (Unnamed Layer* 82) [Activation] || node_of_inception_4d/3x3_reduce_1 + (Unnamed Layer* 84) [Activation]: 
+0.007936ms  , (Unnamed Layer* 91) [Pooling]: 
+0.016768ms  , node_of_inception_4d/pool_proj_1 + (Unnamed Layer* 93) [Activation]: 
+0.034592ms  , node_of_inception_4d/3x3_1 + (Unnamed Layer* 86) [Activation]: 
+0.01904ms   , node_of_inception_4d/5x5_1 + (Unnamed Layer* 90) [Activation]: 
+0.005792ms  , inception_4d/1x1_2 copy: 
+0.032896ms  , node_of_inception_4e/1x1_1 + (Unnamed Layer* 96) [Activation] || node_of_inception_4e/3x3_reduce_1 + (Unnamed Layer* 98) [Activation] || node_of_inception_4e/5x5_reduce_1 + (Unnamed Layer* 102) [Activation]: 
+0.007872ms  , (Unnamed Layer* 105) [Pooling]: 
+0.020544ms  , node_of_inception_4e/pool_proj_1 + (Unnamed Layer* 107) [Activation]: 
+0.035072ms  , node_of_inception_4e/3x3_1 + (Unnamed Layer* 100) [Activation]: 
+0.018464ms  , node_of_inception_4e/5x5_1 + (Unnamed Layer* 104) [Activation]: 
+0.006176ms  , inception_4e/1x1_2 copy: 
+0.00768ms   , (Unnamed Layer* 109) [Pooling]: 
+0.02224ms   , node_of_inception_5a/1x1_1 + (Unnamed Layer* 111) [Activation] || node_of_inception_5a/3x3_reduce_1 + (Unnamed Layer* 113) [Activation] || node_of_inception_5a/5x5_reduce_1 + (Unnamed Layer* 117) [Activation]: 
+0.007424ms  , (Unnamed Layer* 120) [Pooling]: 
+0.019584ms  , node_of_inception_5a/pool_proj_1 + (Unnamed Layer* 122) [Activation]: 
+0.027232ms  , node_of_inception_5a/3x3_1 + (Unnamed Layer* 115) [Activation]: 
+0.01296ms   , node_of_inception_5a/5x5_1 + (Unnamed Layer* 119) [Activation]: 
+0.005504ms  , inception_5a/1x1_2 copy: 
+0.025024ms  , node_of_inception_5b/1x1_1 + (Unnamed Layer* 125) [Activation] || node_of_inception_5b/3x3_reduce_1 + (Unnamed Layer* 127) [Activation] || node_of_inception_5b/5x5_reduce_1 + (Unnamed Layer* 131) [Activation]: 
+0.006912ms  , (Unnamed Layer* 134) [Pooling]: 
+0.01872ms   , node_of_inception_5b/pool_proj_1 + (Unnamed Layer* 136) [Activation]: 
+0.026848ms  , node_of_inception_5b/3x3_1 + (Unnamed Layer* 129) [Activation]: 
+0.013696ms  , node_of_inception_5b/5x5_1 + (Unnamed Layer* 133) [Activation]: 
+0.005504ms  , inception_5b/1x1_2 copy: 
+0.01024ms   , (Unnamed Layer* 138) [Pooling]: 
+0.024256ms  , (Unnamed Layer* 143) [Fully Connected]: 
+0.00768ms   , (Unnamed Layer* 146) [Softmax]: 
+==================================================
+summary:
+total time: 1.598304 ms

@@ -1,0 +1,65 @@
+0.092256ms  , resnetv17_conv0_fwd + resnetv17_relu0_fwd: 
+0.018528ms  , resnetv17_pool0_fwd: 
+0.023296ms  , resnetv17_stage1_conv0_fwd + resnetv17_stage1_relu0_fwd: 
+0.030144ms  , resnetv17_stage1_conv1_fwd + resnetv17_stage1_relu1_fwd: 
+0.030112ms  , resnetv17_stage1_conv2_fwd: 
+0.042592ms  , resnetv17_stage1_conv3_fwd + resnetv17_stage1__plus0 + resnetv17_stage1_activation0: 
+0.04208ms   , resnetv17_stage1_conv4_fwd + resnetv17_stage1_relu2_fwd: 
+0.028096ms  , resnetv17_stage1_conv5_fwd + resnetv17_stage1_relu3_fwd: 
+0.040448ms  , resnetv17_stage1_conv6_fwd + resnetv17_stage1__plus1 + resnetv17_stage1_activation1: 
+0.041856ms  , resnetv17_stage1_conv7_fwd + resnetv17_stage1_relu4_fwd: 
+0.029088ms  , resnetv17_stage1_conv8_fwd + resnetv17_stage1_relu5_fwd: 
+0.040928ms  , resnetv17_stage1_conv9_fwd + resnetv17_stage1__plus2 + resnetv17_stage1_activation2: 
+0.030272ms  , resnetv17_stage1_conv9_fwd + resnetv17_stage1__plus2 + resnetv17_stage1_activation2 output reformatter 0: 
+0.023744ms  , resnetv17_stage2_conv0_fwd + resnetv17_stage2_relu0_fwd: 
+0.042912ms  , resnetv17_stage2_conv1_fwd + resnetv17_stage2_relu1_fwd: 
+0.025248ms  , resnetv17_stage2_conv2_fwd: 
+0.035232ms  , resnetv17_stage2_conv3_fwd + resnetv17_stage2__plus0 + resnetv17_stage2_activation0: 
+0.028736ms  , resnetv17_stage2_conv4_fwd + resnetv17_stage2_relu2_fwd: 
+0.042304ms  , resnetv17_stage2_conv5_fwd + resnetv17_stage2_relu3_fwd: 
+0.031328ms  , resnetv17_stage2_conv6_fwd + resnetv17_stage2__plus1 + resnetv17_stage2_activation1: 
+0.02848ms   , resnetv17_stage2_conv7_fwd + resnetv17_stage2_relu4_fwd: 
+0.042336ms  , resnetv17_stage2_conv8_fwd + resnetv17_stage2_relu5_fwd: 
+0.031296ms  , resnetv17_stage2_conv9_fwd + resnetv17_stage2__plus2 + resnetv17_stage2_activation2: 
+0.028928ms  , resnetv17_stage2_conv10_fwd + resnetv17_stage2_relu6_fwd: 
+0.042144ms  , resnetv17_stage2_conv11_fwd + resnetv17_stage2_relu7_fwd: 
+0.03168ms   , resnetv17_stage2_conv12_fwd + resnetv17_stage2__plus3 + resnetv17_stage2_activation3: 
+0.027648ms  , resnetv17_stage3_conv0_fwd + resnetv17_stage3_relu0_fwd: 
+0.009824ms  , resnetv17_stage3_conv1_fwd + resnetv17_stage3_relu1_fwd input reformatter 0: 
+0.044032ms  , resnetv17_stage3_conv1_fwd + resnetv17_stage3_relu1_fwd: 
+0.006912ms  , resnetv17_stage3_conv2_fwd input reformatter 0: 
+0.03376ms   , resnetv17_stage3_conv2_fwd: 
+0.047456ms  , resnetv17_stage3_conv3_fwd + resnetv17_stage3__plus0 + resnetv17_stage3_activation0: 
+0.011008ms  , resnetv17_stage3_conv3_fwd + resnetv17_stage3__plus0 + resnetv17_stage3_activation0 output reformatter 0: 
+0.035488ms  , resnetv17_stage3_conv4_fwd + resnetv17_stage3_relu2_fwd: 
+0.043552ms  , resnetv17_stage3_conv5_fwd + resnetv17_stage3_relu3_fwd: 
+0.045376ms  , resnetv17_stage3_conv6_fwd + resnetv17_stage3__plus1 + resnetv17_stage3_activation1: 
+0.035328ms  , resnetv17_stage3_conv7_fwd + resnetv17_stage3_relu4_fwd: 
+0.042336ms  , resnetv17_stage3_conv8_fwd + resnetv17_stage3_relu5_fwd: 
+0.042944ms  , resnetv17_stage3_conv9_fwd + resnetv17_stage3__plus2 + resnetv17_stage3_activation2: 
+0.034368ms  , resnetv17_stage3_conv10_fwd + resnetv17_stage3_relu6_fwd: 
+0.04272ms   , resnetv17_stage3_conv11_fwd + resnetv17_stage3_relu7_fwd: 
+0.042912ms  , resnetv17_stage3_conv12_fwd + resnetv17_stage3__plus3 + resnetv17_stage3_activation3: 
+0.03488ms   , resnetv17_stage3_conv13_fwd + resnetv17_stage3_relu8_fwd: 
+0.04288ms   , resnetv17_stage3_conv14_fwd + resnetv17_stage3_relu9_fwd: 
+0.043232ms  , resnetv17_stage3_conv15_fwd + resnetv17_stage3__plus4 + resnetv17_stage3_activation4: 
+0.034496ms  , resnetv17_stage3_conv16_fwd + resnetv17_stage3_relu10_fwd: 
+0.042272ms  , resnetv17_stage3_conv17_fwd + resnetv17_stage3_relu11_fwd: 
+0.043296ms  , resnetv17_stage3_conv18_fwd + resnetv17_stage3__plus5 + resnetv17_stage3_activation5: 
+0.011392ms  , resnetv17_stage4_conv0_fwd + resnetv17_stage4_relu0_fwd input reformatter 0: 
+0.039872ms  , resnetv17_stage4_conv0_fwd + resnetv17_stage4_relu0_fwd: 
+0.008064ms  , resnetv17_stage4_conv1_fwd + resnetv17_stage4_relu1_fwd input reformatter 0: 
+0.068064ms  , resnetv17_stage4_conv1_fwd + resnetv17_stage4_relu1_fwd: 
+0.03632ms   , resnetv17_stage4_conv2_fwd: 
+444.61ms    , resnetv17_stage4_conv3_fwd + resnetv17_stage4__plus0 + resnetv17_stage4_activation0: 
+0.082848ms  , resnetv17_stage4_conv4_fwd + resnetv17_stage4_relu2_fwd: 
+0.077344ms  , resnetv17_stage4_conv5_fwd + resnetv17_stage4_relu3_fwd: 
+0.077216ms  , resnetv17_stage4_conv6_fwd + resnetv17_stage4__plus1 + resnetv17_stage4_activation1: 
+0.060288ms  , resnetv17_stage4_conv7_fwd + resnetv17_stage4_relu4_fwd: 
+0.076064ms  , resnetv17_stage4_conv8_fwd + resnetv17_stage4_relu5_fwd: 
+0.078464ms  , resnetv17_stage4_conv9_fwd + resnetv17_stage4__plus2 + resnetv17_stage4_activation2: 
+0.013056ms  , resnetv17_pool1_fwd: 
+0.038048ms  , resnetv17_dense0_fwd: 
+==================================================
+summary:
+total time: 446.987824 ms

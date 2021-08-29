@@ -1,0 +1,102 @@
+6.394525   ms, [CUDA memcpy HtoD]
+0.001472   ms, [CUDA memset]
+0.001024   ms, [CUDA memset]
+0.001024   ms, [CUDA memset]
+0.000993   ms, [CUDA memset]
+0.001729   ms, [CUDA memset]
+0.000992   ms, [CUDA memset]
+0.000992   ms, [CUDA memset]
+0.000992   ms, [CUDA memset]
+0.003232   ms, [CUDA memcpy DtoD]
+0.002304   ms, [CUDA memcpy DtoD]
+0.008993   ms, [CUDA memcpy DtoD]
+0.0024     ms, [CUDA memcpy DtoD]
+0.011424   ms, [CUDA memcpy DtoD]
+0.003808   ms, [CUDA memcpy DtoD]
+0.018593   ms, [CUDA memcpy DtoD]
+0.0168     ms, [CUDA memcpy DtoD]
+0.018817   ms, [CUDA memcpy DtoD]
+0.023585   ms, [CUDA memcpy DtoD]
+0.028769   ms, [CUDA memcpy DtoD]
+0.033282   ms, [CUDA memcpy DtoD]
+0.0921     ms, [CUDA memcpy HtoD]
+0.002592   ms, [CUDA memcpy DtoD]
+0.002176   ms, [CUDA memcpy DtoD]
+0.011201   ms, [CUDA memcpy DtoD]
+0.002496   ms, [CUDA memcpy DtoD]
+0.011457   ms, [CUDA memcpy DtoD]
+0.00352    ms, [CUDA memcpy DtoD]
+0.018529   ms, [CUDA memcpy DtoD]
+0.016929   ms, [CUDA memcpy DtoD]
+0.018913   ms, [CUDA memcpy DtoD]
+0.023393   ms, [CUDA memcpy DtoD]
+0.028577   ms, [CUDA memcpy DtoD]
+0.033953   ms, [CUDA memcpy DtoD]
+0.04125    ms, trt_maxwell_scudnn_128x64_relu_medium_nn_v0
+0.012384   ms, void nvinfer1::tiled_pooling::poolCHW_RS3_UV2_PQT_kernel<4, 4, 32, 1, (nvinfer1::ITiledPooling::PoolingMode)0>(nvinfer1::TiledPoolingParams, int)
+0.020992   ms, void cudnn::detail::lrnForward_evenC<5, float, float>(cudnn::detail::LrnForwardParams<float, float>)
+0.020928   ms, trt_maxwell_scudnn_128x64_relu_interior_nn_v1
+0.057187   ms, trt_maxwell_scudnn_winograd_128x128_ldg1_ldg4_relu_tile148n_nt_v0
+0.092323   ms, void cudnn::detail::lrnForward_evenC<5, float, float>(cudnn::detail::LrnForwardParams<float, float>)
+0.012896   ms, void nvinfer1::tiled_pooling::poolCHW_RS3_UV2_PQT_kernel<4, 4, 32, 1, (nvinfer1::ITiledPooling::PoolingMode)0>(nvinfer1::TiledPoolingParams, int)
+0.028865   ms, trt_maxwell_scudnn_128x64_relu_interior_nn_v1
+0.005088   ms, void nvinfer1::tiled_pooling::poolCHW_RS3_UV1_PQT_kernel<4, 4, 32, 1, (nvinfer1::ITiledPooling::PoolingMode)0>(nvinfer1::TiledPoolingParams, int)
+0.01008    ms, void fused::fusedConvolutionReluKernel<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 4, 1>, fused::KpqkPtrWriter<float, 1, 1, 1>, float, float, 7, 4, 8, 1, 1, 1, 1>(fused::ConvolutionParams<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 4, 1>::SrcType, float, fused::KpqkPtrWriter<float, 1, 1, 1>::Type>)
+0.026433   ms, trt_maxwell_scudnn_winograd_128x128_ldg1_ldg4_relu_tile148n_nt_v0
+0.01088    ms, void fused::fusedConvolutionReluKernel<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 1, 1>, fused::KpqkPtrWriter<float, 1, 1, 1>, float, float, 4, 4, 8, 5, 5, 1, 1>(fused::ConvolutionParams<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 1, 1>::SrcType, float, fused::KpqkPtrWriter<float, 1, 1, 1>::Type>)
+0.00256    ms, [CUDA memcpy DtoD]
+0.033602   ms, trt_maxwell_scudnn_128x32_relu_interior_nn_v0
+0.005344   ms, void nvinfer1::tiled_pooling::poolCHW_RS3_UV1_PQT_kernel<4, 4, 32, 1, (nvinfer1::ITiledPooling::PoolingMode)0>(nvinfer1::TiledPoolingParams, int)
+0.013473   ms, void fused::fusedConvolutionReluKernel<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 4, 1>, fused::KpqkPtrWriter<float, 1, 1, 1>, float, float, 4, 7, 8, 1, 1, 1, 1>(fused::ConvolutionParams<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 4, 1>::SrcType, float, fused::KpqkPtrWriter<float, 1, 1, 1>::Type>)
+0.033505   ms, trt_maxwell_scudnn_winograd_128x128_ldg1_ldg4_relu_tile148n_nt_v0
+0.026625   ms, void fused::fusedConvolutionReluKernel<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 1, 1>, fused::KpqkPtrWriter<float, 1, 1, 1>, float, float, 4, 6, 8, 5, 5, 1, 1>(fused::ConvolutionParams<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 1, 1>::SrcType, float, fused::KpqkPtrWriter<float, 1, 1, 1>::Type>)
+0.003841   ms, [CUDA memcpy DtoD]
+0.007264   ms, void nvinfer1::tiled_pooling::poolCHW_PQT<3, 3, 2, 2, 7, 7, 225, 5, 1, true, (nvinfer1::ITiledPooling::PoolingMode)0, false>(nvinfer1::TiledPoolingParams, int)
+0.022753   ms, void fused::fusedConvolutionReluKernel<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 2, 2>, fused::KpqkPtrWriter<float, 1, 1, 2>, float, float, 3, 9, 8, 1, 1, 1, 1>(fused::ConvolutionParams<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 2, 2>::SrcType, float, fused::KpqkPtrWriter<float, 1, 1, 2>::Type>)
+0.004928   ms, void nvinfer1::tiled_pooling::poolCHW_PQT<3, 3, 1, 1, 14, 14, 256, 3, 1, true, (nvinfer1::ITiledPooling::PoolingMode)0, false>(nvinfer1::TiledPoolingParams, int)
+0.014273   ms, void fused::fusedConvolutionReluKernel<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 4, 1>, fused::KpqkPtrWriter<float, 1, 1, 1>, float, float, 4, 7, 8, 1, 1, 1, 1>(fused::ConvolutionParams<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 4, 1>::SrcType, float, fused::KpqkPtrWriter<float, 1, 1, 1>::Type>)
+0.023329   ms, trt_maxwell_scudnn_winograd_128x128_ldg1_ldg4_relu_tile148n_nt_v0
+0.010369   ms, void fused::fusedConvolutionReluKernel<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 1, 1>, fused::KpqkPtrWriter<float, 1, 1, 1>, float, float, 4, 4, 8, 5, 5, 1, 1>(fused::ConvolutionParams<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 1, 1>::SrcType, float, fused::KpqkPtrWriter<float, 1, 1, 1>::Type>)
+0.002624   ms, [CUDA memcpy DtoD]
+0.024097   ms, void fused::fusedConvolutionReluKernel<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 2, 2>, fused::KpqkPtrWriter<float, 1, 1, 2>, float, float, 3, 9, 8, 1, 1, 1, 1>(fused::ConvolutionParams<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 2, 2>::SrcType, float, fused::KpqkPtrWriter<float, 1, 1, 2>::Type>)
+0.004672   ms, void nvinfer1::tiled_pooling::poolCHW_PQT<3, 3, 1, 1, 14, 14, 256, 5, 1, true, (nvinfer1::ITiledPooling::PoolingMode)0, false>(nvinfer1::TiledPoolingParams, int)
+0.013505   ms, void fused::fusedConvolutionReluKernel<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 4, 1>, fused::KpqkPtrWriter<float, 1, 1, 1>, float, float, 4, 7, 8, 1, 1, 1, 1>(fused::ConvolutionParams<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 4, 1>::SrcType, float, fused::KpqkPtrWriter<float, 1, 1, 1>::Type>)
+0.024289   ms, trt_maxwell_scudnn_winograd_128x128_ldg1_ldg4_relu_tile148n_nt_v0
+0.014881   ms, void fused::fusedConvolutionReluKernel<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 1, 1>, fused::KpqkPtrWriter<float, 1, 1, 1>, float, float, 4, 6, 8, 5, 5, 1, 1>(fused::ConvolutionParams<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 1, 1>::SrcType, float, fused::KpqkPtrWriter<float, 1, 1, 1>::Type>)
+0.002432   ms, [CUDA memcpy DtoD]
+0.023809   ms, void fused::fusedConvolutionReluKernel<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 2, 2>, fused::KpqkPtrWriter<float, 1, 1, 2>, float, float, 3, 9, 8, 1, 1, 1, 1>(fused::ConvolutionParams<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 2, 2>::SrcType, float, fused::KpqkPtrWriter<float, 1, 1, 2>::Type>)
+0.004704   ms, void nvinfer1::tiled_pooling::poolCHW_PQT<3, 3, 1, 1, 14, 14, 256, 5, 1, true, (nvinfer1::ITiledPooling::PoolingMode)0, false>(nvinfer1::TiledPoolingParams, int)
+0.013953   ms, void fused::fusedConvolutionReluKernel<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 4, 1>, fused::KpqkPtrWriter<float, 1, 1, 1>, float, float, 4, 7, 8, 1, 1, 1, 1>(fused::ConvolutionParams<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 4, 1>::SrcType, float, fused::KpqkPtrWriter<float, 1, 1, 1>::Type>)
+0.026721   ms, trt_maxwell_scudnn_winograd_128x128_ldg1_ldg4_relu_tile148n_nt_v0
+0.014625   ms, void fused::fusedConvolutionReluKernel<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 1, 1>, fused::KpqkPtrWriter<float, 1, 1, 1>, float, float, 4, 6, 8, 5, 5, 1, 1>(fused::ConvolutionParams<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 1, 1>::SrcType, float, fused::KpqkPtrWriter<float, 1, 1, 1>::Type>)
+0.002656   ms, [CUDA memcpy DtoD]
+0.023329   ms, void fused::fusedConvolutionReluKernel<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 2, 2>, fused::KpqkPtrWriter<float, 1, 1, 2>, float, float, 3, 9, 8, 1, 1, 1, 1>(fused::ConvolutionParams<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 2, 2>::SrcType, float, fused::KpqkPtrWriter<float, 1, 1, 2>::Type>)
+0.004801   ms, void nvinfer1::tiled_pooling::poolCHW_PQT<3, 3, 1, 1, 14, 14, 256, 5, 1, true, (nvinfer1::ITiledPooling::PoolingMode)0, false>(nvinfer1::TiledPoolingParams, int)
+0.013665   ms, void fused::fusedConvolutionReluKernel<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 4, 1>, fused::KpqkPtrWriter<float, 1, 1, 1>, float, float, 4, 7, 8, 1, 1, 1, 1>(fused::ConvolutionParams<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 4, 1>::SrcType, float, fused::KpqkPtrWriter<float, 1, 1, 1>::Type>)
+0.031425   ms, trt_maxwell_scudnn_winograd_128x128_ldg1_ldg4_relu_tile148n_nt_v1
+0.015521   ms, void fused::fusedConvolutionReluKernel<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 1, 1>, fused::KpqkPtrWriter<float, 1, 1, 1>, float, float, 4, 6, 8, 5, 5, 1, 1>(fused::ConvolutionParams<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 1, 1>::SrcType, float, fused::KpqkPtrWriter<float, 1, 1, 1>::Type>)
+0.002688   ms, [CUDA memcpy DtoD]
+0.029313   ms, void fused::fusedConvolutionReluKernel<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 2, 2>, fused::KpqkPtrWriter<float, 1, 1, 2>, float, float, 4, 7, 8, 1, 1, 1, 1>(fused::ConvolutionParams<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 2, 2>::SrcType, float, fused::KpqkPtrWriter<float, 1, 1, 2>::Type>)
+0.004704   ms, void nvinfer1::tiled_pooling::poolCHW_PQT<3, 3, 1, 1, 14, 14, 256, 5, 1, true, (nvinfer1::ITiledPooling::PoolingMode)0, false>(nvinfer1::TiledPoolingParams, int)
+0.017377   ms, void fused::fusedConvolutionReluKernel<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 2, 2>, fused::KpqkPtrWriter<float, 1, 1, 2>, float, float, 2, 8, 8, 1, 1, 1, 1>(fused::ConvolutionParams<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 2, 2>::SrcType, float, fused::KpqkPtrWriter<float, 1, 1, 2>::Type>)
+0.031969   ms, trt_maxwell_scudnn_winograd_128x128_ldg1_ldg4_relu_tile148n_nt_v0
+0.015201   ms, void fused::fusedConvolutionReluKernel<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 1, 1>, fused::KpqkPtrWriter<float, 1, 1, 1>, float, float, 4, 4, 8, 5, 5, 1, 1>(fused::ConvolutionParams<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 1, 1>::SrcType, float, fused::KpqkPtrWriter<float, 1, 1, 1>::Type>)
+0.003072   ms, [CUDA memcpy DtoD]
+0.004672   ms, void nvinfer1::tiled_pooling::poolCHW_PQT<3, 3, 2, 2, 7, 7, 225, 5, 1, true, (nvinfer1::ITiledPooling::PoolingMode)0, false>(nvinfer1::TiledPoolingParams, int)
+0.019104   ms, void fused::fusedConvolutionReluKernel<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 4, 1>, fused::KpqkPtrWriter<float, 1, 1, 1>, float, float, 4, 7, 8, 1, 1, 1, 1>(fused::ConvolutionParams<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 4, 1>::SrcType, float, fused::KpqkPtrWriter<float, 1, 1, 1>::Type>)
+0.004384   ms, void nvinfer1::tiled_pooling::poolCHW_PQT<3, 3, 1, 1, 7, 7, 81, 3, 1, true, (nvinfer1::ITiledPooling::PoolingMode)0, false>(nvinfer1::TiledPoolingParams, int)
+0.016416   ms, void fused::fusedConvolutionReluKernel<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 4, 1>, fused::KpqkPtrWriter<float, 1, 1, 1>, float, float, 4, 7, 8, 1, 1, 1, 1>(fused::ConvolutionParams<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 4, 1>::SrcType, float, fused::KpqkPtrWriter<float, 1, 1, 1>::Type>)
+0.024129   ms, void fused::fusedConvolutionReluKernel<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 1, 1>, fused::KpqkPtrWriter<float, 1, 1, 1>, float, float, 5, 8, 8, 3, 3, 1, 1>(fused::ConvolutionParams<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 1, 1>::SrcType, float, fused::KpqkPtrWriter<float, 1, 1, 1>::Type>)
+0.00992    ms, void fused::fusedConvolutionReluKernel<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 1, 1>, fused::KpqkPtrWriter<float, 1, 1, 1>, float, float, 4, 4, 8, 5, 5, 1, 1>(fused::ConvolutionParams<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 1, 1>::SrcType, float, fused::KpqkPtrWriter<float, 1, 1, 1>::Type>)
+0.002432   ms, [CUDA memcpy DtoD]
+0.021856   ms, void fused::fusedConvolutionReluKernel<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 4, 1>, fused::KpqkPtrWriter<float, 1, 1, 1>, float, float, 4, 7, 8, 1, 1, 1, 1>(fused::ConvolutionParams<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 4, 1>::SrcType, float, fused::KpqkPtrWriter<float, 1, 1, 1>::Type>)
+0.003233   ms, void nvinfer1::tiled_pooling::poolCHW_PQT<3, 3, 1, 1, 7, 7, 81, 3, 1, true, (nvinfer1::ITiledPooling::PoolingMode)0, false>(nvinfer1::TiledPoolingParams, int)
+0.015552   ms, void fused::fusedConvolutionReluKernel<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 4, 1>, fused::KpqkPtrWriter<float, 1, 1, 1>, float, float, 4, 7, 8, 1, 1, 1, 1>(fused::ConvolutionParams<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 4, 1>::SrcType, float, fused::KpqkPtrWriter<float, 1, 1, 1>::Type>)
+0.023681   ms, void fused::fusedConvolutionReluKernel<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 1, 1>, fused::KpqkPtrWriter<float, 1, 1, 1>, float, float, 5, 8, 8, 3, 3, 1, 1>(fused::ConvolutionParams<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 1, 1>::SrcType, float, fused::KpqkPtrWriter<float, 1, 1, 1>::Type>)
+0.010528   ms, void fused::fusedConvolutionReluKernel<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 1, 1>, fused::KpqkPtrWriter<float, 1, 1, 1>, float, float, 4, 4, 8, 5, 5, 1, 1>(fused::ConvolutionParams<fused::SrcChwcPtr_FltTex_Reader<float, 1, 1, 1, 1>::SrcType, float, fused::KpqkPtrWriter<float, 1, 1, 1>::Type>)
+0.002368   ms, [CUDA memcpy DtoD]
+0.007168   ms, void nvinfer1::tiled_pooling::poolCHW_PQT<7, 7, 1, 1, 1, 1, 49, 4, 1, true, (nvinfer1::ITiledPooling::PoolingMode)1, false>(nvinfer1::TiledPoolingParams, int)
+0.017728   ms, void gemv2N_kernel<int, int, float, float, float, float, 128, 8, 4, 4, 1, false, cublasGemvParams<cublasGemvTensorStridedBatched<float const>, cublasGemvTensorStridedBatched<float const>, cublasGemvTensorStridedBatched<float>, float> >(cublasGemvParams<cublasGemvTensorStridedBatched<float const>, cublasGemvTensorStridedBatched<float const>, cublasGemvTensorStridedBatched<float>, float>)
+0.002912   ms, void op_generic_tensor_kernel<1, float, float, float, 256, (cudnnGenericOp_t)0, (cudnnNanPropagation_t)0, 0>(cudnnTensorStruct, float*, cudnnTensorStruct, float const*, cudnnTensorStruct, float const*, float, float, float, cudnnActivationStruct, reducedDivisorArray, int)
+0.004608   ms, void cuSoftMaxLayer::nchwSoftmaxAxisW<float, 256u>(int, float const*, float*)
+0.001152   ms, [CUDA memcpy DtoH]

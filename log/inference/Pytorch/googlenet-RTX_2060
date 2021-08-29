@@ -1,0 +1,93 @@
+Warning: LBR backtrace method is not supported on this platform. DWARF backtrace method will be used.
+Collecting data...
+[TensorRT] VERBOSE: Deserialize required 1887599 microseconds.
+[TensorRT] VERBOSE: Allocated persistent device memory of size 17135616
+[TensorRT] VERBOSE: Allocated activation device memory of size 5470208
+[TensorRT] VERBOSE: Assigning persistent memory blocks for various profiles
+345: 0.011872ms
+352: 0.010912ms
+359: 0.00352ms
+Gather_1: 0.110016ms
+Gather_8: 0.079872ms
+Gather_15: 0.083776ms
+348 + (Unnamed Layer* 4) [Shuffle] + Mul_4 + 350 + (Unnamed Layer* 7) [Shuffle] + Add_6: 0.008768ms
+355 + (Unnamed Layer* 13) [Shuffle] + Mul_11 + 357 + (Unnamed Layer* 16) [Shuffle] + Add_13: 0.0088ms
+362 + (Unnamed Layer* 22) [Shuffle] + Mul_18 + 364 + (Unnamed Layer* 25) [Shuffle] + Add_20: 0.008192ms
+Conv_22 + Relu_23: 0.080992ms
+MaxPool_24: 0.01872ms
+Conv_25 + Relu_26: 0.020864ms
+Conv_27 + Relu_28: 0.144352ms
+MaxPool_29: 0.01552ms
+Conv_30 + Relu_31 || Conv_32 + Relu_33 || Conv_36 + Relu_37: 0.033792ms
+MaxPool_40: 0.00992ms
+Conv_41 + Relu_42: 0.016064ms
+Conv_34 + Relu_35: 0.059296ms
+Conv_38 + Relu_39: 0.014112ms
+380 copy: 0.007264ms
+Conv_44 + Relu_45 || Conv_46 + Relu_47 || Conv_50 + Relu_51: 0.060448ms
+MaxPool_54: 0.010432ms
+Conv_55 + Relu_56: 0.024704ms
+Conv_48 + Relu_49: 0.08656ms
+Conv_52 + Relu_53: 0.020576ms
+400 copy: 0.009248ms
+MaxPool_58: 0.014176ms
+Conv_59 + Relu_60 || Conv_61 + Relu_62 || Conv_65 + Relu_66: 0.04384ms
+MaxPool_69: 0.009408ms
+Conv_70 + Relu_71: 0.021696ms
+Conv_63 + Relu_64: 0.030432ms
+Conv_67 + Relu_68: 0.012928ms
+421 copy: 0.006656ms
+Conv_73 + Relu_74 || Conv_75 + Relu_76 || Conv_79 + Relu_80: 0.046688ms
+MaxPool_83: 0.009792ms
+Conv_84 + Relu_85: 0.022784ms
+Conv_77 + Relu_78: 0.033824ms
+Conv_81 + Relu_82: 0.014496ms
+441 copy: 0.006432ms
+Conv_87 + Relu_88 || Conv_89 + Relu_90 || Conv_93 + Relu_94: 0.04592ms
+MaxPool_97: 0.009728ms
+Conv_98 + Relu_99: 0.02224ms
+Conv_91 + Relu_92: 0.044576ms
+Conv_95 + Relu_96: 0.015008ms
+461 copy: 0.006848ms
+Conv_107 + Relu_108 || Conv_101 + Relu_102 || Conv_103 + Relu_104: 0.047424ms
+MaxPool_111: 0.010176ms
+Conv_112 + Relu_113: 0.02208ms
+Conv_105 + Relu_106: 0.049536ms
+Conv_109 + Relu_110: 0.01744ms
+481 copy: 0.00656ms
+Conv_115 + Relu_116 || Conv_117 + Relu_118 || Conv_121 + Relu_122: 0.049216ms
+MaxPool_125: 0.010464ms
+Conv_126 + Relu_127: 0.02896ms
+Conv_119 + Relu_120: 0.053792ms
+Conv_123 + Relu_124: 0.017312ms
+501 copy: 0.008ms
+MaxPool_129: 0.01024ms
+Conv_130 + Relu_131 || Conv_132 + Relu_133 || Conv_136 + Relu_137: 0.031648ms
+MaxPool_140: 0.008032ms
+Conv_141 + Relu_142: 0.02928ms
+Conv_134 + Relu_135: 0.039584ms
+Conv_138 + Relu_139: 0.01632ms
+522 copy: 0.006432ms
+Conv_144 + Relu_145 || Conv_146 + Relu_147 || Conv_150 + Relu_151: 0.049248ms
+MaxPool_154: 0.008192ms
+Conv_155 + Relu_156: 0.028736ms
+Conv_148 + Relu_149: 0.044608ms
+Conv_152 + Relu_153: 0.01904ms
+542 copy: 0.0064ms
+GlobalAveragePool_158: 0.009536ms
+Gemm_160: 0.025184ms
+src/inference.py:162: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  percentage = F.softmax(output)
+Processing events...
+Saving temporary "/tmp/nsys-report-c592-8172-e4b1-3457.qdstrm" file to disk...
+
+Creating final output files...
+Processing [0%                                                                ]Processing [1%                                                                ]Processing [3%                                                                ]Processing [1%                                                                ]Processing [0%                                                                ]Processing [3%                                                                ]Processing [==7%                                                              ]Processing [=6%                                                               ]Processing [=5%                                                               ]Processing [4%                                                                ]Processing [3%                                                                ]Processing [4%                                                                ]Processing [===8%                                                             ]Processing [=====13%                                                          ]Processing [========18%                                                       ]Processing [============23%                                                   ]Processing [===============28%                                                ]Processing [==================33%                                             ]Processing [======================38%                                         ]Processing [=========================43%                                      ]Processing [============================48%                                   ]Processing [===============================53%                                ]Processing [===================================58%                            ]Processing [======================================63%                         ]Processing [=========================================68%                      ]Processing [=============================================73%                  ]Processing [===============================================77%                ]Processing [==================================================81%             ]Processing [=====================================================85%          ]Processing [=======================================================89%        ]Processing [==========================================================93%     ]Processing [=============================================================97%  ]Processing [==============================================================99% ]Processing [==============================================================100%]
+Saved report file to "/tmp/nsys-report-c592-8172-e4b1-3457.qdrep"
+Exporting 47401 events: [1%                                                   ]Exporting 47401 events: [2%                                                   ]Exporting 47401 events: [3%                                                   ]Exporting 47401 events: [4%                                                   ]Exporting 47401 events: [5%                                                   ]Exporting 47401 events: [=6%                                                  ]Exporting 47401 events: [=7%                                                  ]Exporting 47401 events: [==8%                                                 ]Exporting 47401 events: [==9%                                                 ]Exporting 47401 events: [==10%                                                ]Exporting 47401 events: [==11%                                                ]Exporting 47401 events: [===12%                                               ]Exporting 47401 events: [===13%                                               ]Exporting 47401 events: [====14%                                              ]Exporting 47401 events: [====15%                                              ]Exporting 47401 events: [=====16%                                             ]Exporting 47401 events: [======17%                                            ]Exporting 47401 events: [======18%                                            ]Exporting 47401 events: [=======19%                                           ]Exporting 47401 events: [=======20%                                           ]Exporting 47401 events: [========21%                                          ]Exporting 47401 events: [========22%                                          ]Exporting 47401 events: [=========23%                                         ]Exporting 47401 events: [=========24%                                         ]Exporting 47401 events: [==========25%                                        ]Exporting 47401 events: [==========26%                                        ]Exporting 47401 events: [===========27%                                       ]Exporting 47401 events: [===========28%                                       ]Exporting 47401 events: [============29%                                      ]Exporting 47401 events: [============30%                                      ]Exporting 47401 events: [=============31%                                     ]Exporting 47401 events: [=============32%                                     ]Exporting 47401 events: [==============33%                                    ]Exporting 47401 events: [===============34%                                   ]Exporting 47401 events: [===============35%                                   ]Exporting 47401 events: [================36%                                  ]Exporting 47401 events: [================37%                                  ]Exporting 47401 events: [=================38%                                 ]Exporting 47401 events: [=================39%                                 ]Exporting 47401 events: [==================40%                                ]Exporting 47401 events: [==================41%                                ]Exporting 47401 events: [===================42%                               ]Exporting 47401 events: [===================43%                               ]Exporting 47401 events: [====================44%                              ]Exporting 47401 events: [====================45%                              ]Exporting 47401 events: [=====================46%                             ]Exporting 47401 events: [=====================47%                             ]Exporting 47401 events: [======================48%                            ]Exporting 47401 events: [======================49%                            ]Exporting 47401 events: [=======================50%                           ]Exporting 47401 events: [========================51%                          ]Exporting 47401 events: [========================52%                          ]Exporting 47401 events: [=========================53%                         ]Exporting 47401 events: [=========================54%                         ]Exporting 47401 events: [==========================55%                        ]Exporting 47401 events: [==========================56%                        ]Exporting 47401 events: [===========================57%                       ]Exporting 47401 events: [===========================58%                       ]Exporting 47401 events: [============================59%                      ]Exporting 47401 events: [============================60%                      ]Exporting 47401 events: [=============================61%                     ]Exporting 47401 events: [=============================62%                     ]Exporting 47401 events: [==============================63%                    ]Exporting 47401 events: [==============================64%                    ]Exporting 47401 events: [===============================65%                   ]Exporting 47401 events: [===============================66%                   ]Exporting 47401 events: [================================67%                  ]Exporting 47401 events: [=================================68%                 ]Exporting 47401 events: [=================================69%                 ]Exporting 47401 events: [==================================70%                ]Exporting 47401 events: [==================================71%                ]Exporting 47401 events: [===================================72%               ]Exporting 47401 events: [===================================73%               ]Exporting 47401 events: [====================================74%              ]Exporting 47401 events: [====================================75%              ]Exporting 47401 events: [=====================================76%             ]Exporting 47401 events: [=====================================77%             ]Exporting 47401 events: [======================================78%            ]Exporting 47401 events: [======================================79%            ]Exporting 47401 events: [=======================================80%           ]Exporting 47401 events: [=======================================81%           ]Exporting 47401 events: [========================================82%          ]Exporting 47401 events: [========================================83%          ]Exporting 47401 events: [=========================================84%         ]Exporting 47401 events: [==========================================85%        ]Exporting 47401 events: [==========================================86%        ]Exporting 47401 events: [===========================================87%       ]Exporting 47401 events: [===========================================88%       ]Exporting 47401 events: [============================================89%      ]Exporting 47401 events: [============================================90%      ]Exporting 47401 events: [=============================================91%     ]Exporting 47401 events: [=============================================92%     ]Exporting 47401 events: [==============================================93%    ]Exporting 47401 events: [==============================================94%    ]Exporting 47401 events: [===============================================95%   ]Exporting 47401 events: [===============================================96%   ]Exporting 47401 events: [================================================97%  ]Exporting 47401 events: [================================================98%  ]Exporting 47401 events: [=================================================99% ]Exporting 47401 events: [=================================================100%]
+
+Exported successfully to
+/tmp/nsys-report-c592-8172-e4b1-3457.sqlite
+Report file moved to "/home/chilin/model-profiling/net.qdrep"
+Report file moved to "/home/chilin/model-profiling/net.sqlite"
+
