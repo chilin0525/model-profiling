@@ -22,6 +22,7 @@ def build(models, prefix, gpu_name, gpu_idx):
 
 
 """
+Pytorch and ONNX pretrained model --> ONNX --> TensorRT engine --> TensorRT inference
 inference command example: 
     nsys profile -f true -o net --export sqlite python3 src/inference.py resnet50-v1-7 > log/inference/res 2>&1
 generate summary of trace reports:
@@ -48,6 +49,33 @@ def inference(models, prefix, gpu_name, gpu_idx):
         os.system(inference_command)
         os.system(nsys_command)
 
+
+"""
+Pytorch Pretrained model --> Pytorch inference
+execute command: 
+    e.q. python3 src/inference_pytorch.py resnet50 a 0 gpu_name
+    <python srcript> <model name> <inference result path> <gpu index: 0|1> <gpu_name>
+"""
+
+
+def pytorch_inference(models, gpu_name, gpu_idx):
+    for model_name in models:
+        inference_command = "nsys profile -f true -o net --export sqlite python3 src/inference_pytorch.py " + \
+            model_name + " " + model_name + " " + gpu_idx + " " + gpu_name + \
+            " > log/inference/pytorch/"+model_name+"-"+gpu_name+" 2>&1"
+        nsys_command = "nsys stats -r gputrace net.qdrep -f json -o ./log/nsys/pytorch/" + \
+            model_name + "-" + gpu_name + "  --force-overwrite true"
+
+        print(bcolors.OKGREEN+" inference stage (pytorch runntime)" + bcolors.ENDC)
+        print("           model: "+model_name)
+        print("           device: "+gpu_name+"("+gpu_idx+")")
+        print("           inference command: " + inference_command)
+        print("           inference path   : log/inference/pytorch/"+model_name+"-"+gpu_name)
+        print("           nsys      command: " + nsys_command)
+        print("           nsys      path   : ./log/nsys/pytorch/"+model_name+"-"+gpu_name)
+        os.system(inference_command)
+        os.system(nsys_command)
+
 """
 execute commnad:
     python3 ./src/nsys_parser.py ./log/nsys/googlenet_gputrace.json ./inference_time/nsys/googlenet_gpu_trace  showall
@@ -68,7 +96,20 @@ def nsys_parsing(json_files, gpu_name, gpu_idx):
         print(bcolors.OKGREEN+" parse nsys log: "+bcolors.ENDC, end="")
         print("%50s to %30s" % (src_path, target_path))
         os.system("python3 ./src/nsys_parser.py ./log/nsys/"+json_filename+"-"+gpu_name + \
-                  "_gputrace.json ./inference_time/nsys/"+json_filename+"-"+gpu_name+"_gputrace " + command)
+                  "_gputrace.json ./inference_time/nsys/"+json_filename+"-"+gpu_name+"_gputrace " + command + \
+                  " " + json_filename + " " + "TensorRT")
+
+
+def nsys_pytorch_parsing(json_files, gpu_name, gpu_idx):
+    for json_filename in json_files:
+        command = "showall"
+        src_path = "./log/nsys/pytorch/"+json_filename+"-"+gpu_name
+        target_path = "./inference_time/nsys/pytorch/" + json_filename+"-"+gpu_name+"_gputrace"
+        print(bcolors.OKGREEN+" parse nsys log: "+bcolors.ENDC, end="")
+        print("%50s to %30s" % (src_path, target_path))
+        os.system("python3 ./src/nsys_parser.py ./log/nsys/pytorch/"+json_filename+"-"+gpu_name +
+                  "_gputrace.json ./inference_time/nsys/pytorch/"+json_filename+"-"+gpu_name+"_gputrace " + command + \
+                  " " + json_filename + " " + "Pytorch")
 
 
 """
@@ -104,16 +145,20 @@ def main():
     
     for gpu_name,gpu_idx in gpu.items():
     
-        # build(model_name_pytorch, prefix_pytorch, gpu_name, gpu_idx)
-        # inference(model_name_pytorch, prefix_pytorch, gpu_name, gpu_idx)
-        # build(model_name_onnx, prefix_onnx, gpu_name, gpu_idx)
-        # inference(model_name_onnx, prefix_onnx, gpu_name, gpu_idx)
-        
+        build(model_name_pytorch, prefix_pytorch, gpu_name, gpu_idx)
+        inference(model_name_pytorch, prefix_pytorch, gpu_name, gpu_idx)
+        build(model_name_onnx, prefix_onnx, gpu_name, gpu_idx)
+        inference(model_name_onnx, prefix_onnx, gpu_name, gpu_idx)
+
+        pytorch_inference(model_name_pytorch, gpu_name, gpu_idx)
+        nsys_pytorch_parsing(model_name_pytorch, gpu_name, gpu_idx)
+
         nsys_parsing(model_name_onnx, gpu_name, gpu_idx)
         nsys_parsing(model_name_pytorch, gpu_name, gpu_idx)
 
-        # trt_inference_parsing(prefix_onnx, model_name_onnx, gpu_name, gpu_idx)
-        # trt_inference_parsing(prefix_pytorch, model_name_pytorch, gpu_name, gpu_idx)
+        trt_inference_parsing(prefix_onnx, model_name_onnx, gpu_name, gpu_idx)
+        trt_inference_parsing(prefix_pytorch, model_name_pytorch, gpu_name, gpu_idx)
+
 
     os.system("rm net.qdrep")
     os.system("rm net.sqlite")
