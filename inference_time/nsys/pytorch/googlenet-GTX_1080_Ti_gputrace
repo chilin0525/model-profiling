@@ -1,0 +1,631 @@
+0.092099   ms, [CUDA memcpy HtoD]
+0.00496    ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.001536   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.002592   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.001504   ms, [CUDA memcpy HtoD]
+0.068194   ms, [CUDA memcpy HtoD]
+0.001056   ms, [CUDA memcpy HtoD]
+0.001056   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.001056   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.005984   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.001568   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.000959   ms, [CUDA memcpy HtoD]
+0.013152   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.06829    ms, [CUDA memcpy HtoD]
+0.000993   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.001023   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.002176   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.000959   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.001216   ms, [CUDA memcpy HtoD]
+0.002784   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.003361   ms, [CUDA memcpy HtoD]
+0.001057   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.000959   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.021697   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.001025   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.021313   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.134084   ms, [CUDA memcpy HtoD]
+0.001376   ms, [CUDA memcpy HtoD]
+0.001056   ms, [CUDA memcpy HtoD]
+0.001056   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.004192   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.019073   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.0088     ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.001025   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.057761   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.001025   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.001056   ms, [CUDA memcpy HtoD]
+0.000961   ms, [CUDA memcpy HtoD]
+0.029665   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.000991   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.109444   ms, [CUDA memcpy HtoD]
+0.001056   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.001025   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.003968   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.003712   ms, [CUDA memcpy HtoD]
+0.000991   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.000961   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.020193   ms, [CUDA memcpy HtoD]
+0.001184   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.001248   ms, [CUDA memcpy HtoD]
+0.051169   ms, [CUDA memcpy HtoD]
+0.001056   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.036193   ms, [CUDA memcpy HtoD]
+0.001023   ms, [CUDA memcpy HtoD]
+0.001023   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.137124   ms, [CUDA memcpy HtoD]
+0.001056   ms, [CUDA memcpy HtoD]
+0.001056   ms, [CUDA memcpy HtoD]
+0.001056   ms, [CUDA memcpy HtoD]
+0.001568   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.00592    ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.006848   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.021825   ms, [CUDA memcpy HtoD]
+0.000993   ms, [CUDA memcpy HtoD]
+0.000993   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.041761   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.041089   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.001023   ms, [CUDA memcpy HtoD]
+0.001312   ms, [CUDA memcpy HtoD]
+0.000961   ms, [CUDA memcpy HtoD]
+0.180549   ms, [CUDA memcpy HtoD]
+0.001056   ms, [CUDA memcpy HtoD]
+0.001055   ms, [CUDA memcpy HtoD]
+0.001056   ms, [CUDA memcpy HtoD]
+0.001056   ms, [CUDA memcpy HtoD]
+0.000959   ms, [CUDA memcpy HtoD]
+0.006464   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.007072   ms, [CUDA memcpy HtoD]
+0.000961   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.000991   ms, [CUDA memcpy HtoD]
+0.021889   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.001504   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.036289   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.04589    ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.001023   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.001023   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.227751   ms, [CUDA memcpy HtoD]
+0.001088   ms, [CUDA memcpy HtoD]
+0.001089   ms, [CUDA memcpy HtoD]
+0.001057   ms, [CUDA memcpy HtoD]
+0.001056   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.008672   ms, [CUDA memcpy HtoD]
+0.001056   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.000928   ms, [CUDA memcpy HtoD]
+0.013057   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.000928   ms, [CUDA memcpy HtoD]
+0.021537   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.083235   ms, [CUDA memcpy HtoD]
+0.001089   ms, [CUDA memcpy HtoD]
+0.001152   ms, [CUDA memcpy HtoD]
+0.001056   ms, [CUDA memcpy HtoD]
+0.001056   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.052578   ms, [CUDA memcpy HtoD]
+0.001056   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.279592   ms, [CUDA memcpy HtoD]
+0.001088   ms, [CUDA memcpy HtoD]
+0.0016     ms, [CUDA memcpy HtoD]
+0.001088   ms, [CUDA memcpy HtoD]
+0.001057   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.012416   ms, [CUDA memcpy HtoD]
+0.000993   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.024385   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.042145   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.001536   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.129476   ms, [CUDA memcpy HtoD]
+0.001056   ms, [CUDA memcpy HtoD]
+0.001056   ms, [CUDA memcpy HtoD]
+0.001056   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.000928   ms, [CUDA memcpy HtoD]
+0.081506   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.001248   ms, [CUDA memcpy HtoD]
+0.001025   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.279432   ms, [CUDA memcpy HtoD]
+0.001056   ms, [CUDA memcpy HtoD]
+0.001536   ms, [CUDA memcpy HtoD]
+0.001088   ms, [CUDA memcpy HtoD]
+0.001087   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.017953   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.024193   ms, [CUDA memcpy HtoD]
+0.001408   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.065665   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.000993   ms, [CUDA memcpy HtoD]
+0.001568   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.195206   ms, [CUDA memcpy HtoD]
+0.00112    ms, [CUDA memcpy HtoD]
+0.00112    ms, [CUDA memcpy HtoD]
+0.00112    ms, [CUDA memcpy HtoD]
+0.001088   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.097251   ms, [CUDA memcpy HtoD]
+0.001056   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.0016     ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.000961   ms, [CUDA memcpy HtoD]
+0.402796   ms, [CUDA memcpy HtoD]
+0.001088   ms, [CUDA memcpy HtoD]
+0.001408   ms, [CUDA memcpy HtoD]
+0.00112    ms, [CUDA memcpy HtoD]
+0.00112    ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.026081   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.001408   ms, [CUDA memcpy HtoD]
+0.00096    ms, [CUDA memcpy HtoD]
+0.035297   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.000993   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.000991   ms, [CUDA memcpy HtoD]
+0.06557    ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.001024   ms, [CUDA memcpy HtoD]
+0.001504   ms, [CUDA memcpy HtoD]
+0.620338   ms, [CUDA memcpy HtoD]
+0.001344   ms, [CUDA memcpy HtoD]
+0.004032   ms, void at::native::vectorized_elementwise_kernel<4, at::native::MulScalarFunctor<float, float>, at::detail::Array<char*, 2> >(int, at::native::MulScalarFunctor<float, float>, at::detail::Array<char*, 2>)
+0.003552   ms, void at::native::vectorized_elementwise_kernel<4, at::native::BUnaryFunctor<at::native::AddFunctor<float> >, at::detail::Array<char*, 2> >(int, at::native::BUnaryFunctor<at::native::AddFunctor<float> >, at::detail::Array<char*, 2>)
+0.003072   ms, void at::native::vectorized_elementwise_kernel<4, at::native::MulScalarFunctor<float, float>, at::detail::Array<char*, 2> >(int, at::native::MulScalarFunctor<float, float>, at::detail::Array<char*, 2>)
+0.002592   ms, void at::native::vectorized_elementwise_kernel<4, at::native::BUnaryFunctor<at::native::AddFunctor<float> >, at::detail::Array<char*, 2> >(int, at::native::BUnaryFunctor<at::native::AddFunctor<float> >, at::detail::Array<char*, 2>)
+0.002912   ms, void at::native::vectorized_elementwise_kernel<4, at::native::MulScalarFunctor<float, float>, at::detail::Array<char*, 2> >(int, at::native::MulScalarFunctor<float, float>, at::detail::Array<char*, 2>)
+0.002624   ms, void at::native::vectorized_elementwise_kernel<4, at::native::BUnaryFunctor<at::native::AddFunctor<float> >, at::detail::Array<char*, 2> >(int, at::native::BUnaryFunctor<at::native::AddFunctor<float> >, at::detail::Array<char*, 2>)
+0.00752    ms, void at::native::(anonymous namespace)::CatArrayBatchedCopy<float, unsigned int, 4, 128, 1>(float*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<float, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)
+0.001376   ms, [CUDA memset]
+0.001152   ms, [CUDA memset]
+0.00112    ms, [CUDA memset]
+0.00112    ms, [CUDA memset]
+0.00112    ms, [CUDA memcpy HtoD]
+0.00352    ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.054625   ms, maxwell_scudnn_128x64_relu_medium_nn
+0.022561   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.015328   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.026944   ms, void at::native::(anonymous namespace)::max_pool_forward_nchw<float, float>(int, float const*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, float*, long*)
+0.002656   ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.026241   ms, maxwell_scudnn_128x64_relu_interior_nn
+0.006048   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.003616   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.00976    ms, void cudnn::winograd::generateWinogradTilesKernel<0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<float, float>)
+0.070978   ms, maxwell_scudnn_winograd_128x128_ldg1_ldg4_tile148n_nt
+0.016513   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.009216   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.019489   ms, void at::native::(anonymous namespace)::max_pool_forward_nchw<float, float>(int, float const*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, float*, long*)
+0.0032     ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.043169   ms, maxwell_scudnn_128x64_relu_interior_nn
+0.00416    ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.00256    ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.002368   ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.034017   ms, maxwell_scudnn_128x32_relu_interior_nn
+0.004224   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002848   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.009504   ms, void cudnn::winograd::generateWinogradTilesKernel<0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<float, float>)
+0.033761   ms, maxwell_scudnn_winograd_128x128_ldg1_ldg4_tile148n_nt
+0.004385   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.003008   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.003136   ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.034721   ms, maxwell_scudnn_128x32_relu_interior_nn
+0.00336    ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002304   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.006304   ms, void cudnn::winograd::generateWinogradTilesKernel<0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<float, float>)
+0.009633   ms, maxwell_scudnn_winograd_128x128_ldg1_ldg4_tile148n_nt
+0.003616   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002432   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.015968   ms, void at::native::(anonymous namespace)::max_pool_forward_nchw<float, float>(int, float const*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, float*, long*)
+0.00272    ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.032257   ms, maxwell_scudnn_128x32_relu_interior_nn
+0.003712   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002912   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.009088   ms, void at::native::(anonymous namespace)::CatArrayBatchedCopy<float, unsigned int, 4, 128, 1>(float*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<float, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)
+0.002432   ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.046977   ms, maxwell_scudnn_128x128_relu_interior_nn
+0.004608   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002944   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.002496   ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.039425   ms, maxwell_scudnn_128x128_relu_interior_nn
+0.004864   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002976   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.011777   ms, void cudnn::winograd::generateWinogradTilesKernel<0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<float, float>)
+0.043425   ms, maxwell_scudnn_winograd_128x128_ldg1_ldg4_tile148n_nt
+0.005056   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.003488   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.002976   ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.046338   ms, maxwell_scudnn_128x32_relu_interior_nn
+0.003552   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002432   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.006752   ms, void cudnn::winograd::generateWinogradTilesKernel<0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<float, float>)
+0.014912   ms, maxwell_scudnn_winograd_128x128_ldg1_ldg4_tile148n_nt
+0.004256   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002784   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.02048    ms, void at::native::(anonymous namespace)::max_pool_forward_nchw<float, float>(int, float const*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, float*, long*)
+0.003328   ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.053857   ms, maxwell_scudnn_128x64_relu_interior_nn
+0.004193   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002592   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.01328    ms, void at::native::(anonymous namespace)::CatArrayBatchedCopy<float, unsigned int, 4, 128, 1>(float*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<float, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)
+0.01264    ms, void at::native::(anonymous namespace)::max_pool_forward_nchw<float, float>(int, float const*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, float*, long*)
+0.003008   ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.079939   ms, maxwell_scudnn_128x64_relu_interior_nn
+0.003808   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002528   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.002848   ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.070083   ms, maxwell_scudnn_128x32_relu_interior_nn
+0.003521   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002496   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.011712   ms, void cudnn::winograd::generateWinogradTilesKernel<0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<float, float>)
+0.026433   ms, maxwell_scudnn_winograd_128x128_ldg1_ldg4_tile148n_nt
+0.003904   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002592   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.00288    ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.073922   ms, maxwell_scudnn_128x32_relu_interior_nn
+0.003328   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.00224    ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.005056   ms, void cudnn::winograd::generateWinogradTilesKernel<0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<float, float>)
+0.009568   ms, maxwell_scudnn_winograd_128x128_ldg1_ldg4_tile148n_nt
+0.003392   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002432   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.011329   ms, void at::native::(anonymous namespace)::max_pool_forward_nchw<float, float>(int, float const*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, float*, long*)
+0.002624   ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.085699   ms, maxwell_scudnn_128x64_relu_interior_nn
+0.003456   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002304   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.006752   ms, void at::native::(anonymous namespace)::CatArrayBatchedCopy<float, unsigned int, 4, 128, 1>(float*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<float, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)
+0.002336   ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.086051   ms, maxwell_scudnn_128x64_relu_interior_nn
+0.004      ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002592   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.002336   ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.077378   ms, maxwell_scudnn_128x128_relu_interior_nn
+0.003584   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002465   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.010848   ms, void cudnn::winograd::generateWinogradTilesKernel<0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<float, float>)
+0.026881   ms, maxwell_scudnn_winograd_128x128_ldg1_ldg4_tile148n_nt
+0.00384    ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.00272    ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.003168   ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.081762   ms, maxwell_scudnn_128x32_relu_interior_nn
+0.003392   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002304   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.006016   ms, void cudnn::winograd::generateWinogradTilesKernel<0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<float, float>)
+0.011008   ms, maxwell_scudnn_winograd_128x128_ldg1_ldg4_tile148n_nt
+0.003424   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002336   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.012032   ms, void at::native::(anonymous namespace)::max_pool_forward_nchw<float, float>(int, float const*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, float*, long*)
+0.00256    ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.090243   ms, maxwell_scudnn_128x64_relu_interior_nn
+0.003456   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002304   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.00672    ms, void at::native::(anonymous namespace)::CatArrayBatchedCopy<float, unsigned int, 4, 128, 1>(float*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<float, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)
+0.002785   ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.077922   ms, maxwell_scudnn_128x128_relu_interior_nn
+0.003616   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.0024     ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.0024     ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.070274   ms, maxwell_scudnn_128x128_relu_interior_nn
+0.00352    ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.0024     ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.013536   ms, void cudnn::winograd::generateWinogradTilesKernel<0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<float, float>)
+0.029953   ms, maxwell_scudnn_winograd_128x128_ldg1_ldg4_tile148n_nt
+0.004161   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002688   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.002912   ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.084258   ms, maxwell_scudnn_128x32_relu_interior_nn
+0.003328   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.00256    ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.006144   ms, void cudnn::winograd::generateWinogradTilesKernel<0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<float, float>)
+0.011969   ms, maxwell_scudnn_winograd_128x128_ldg1_ldg4_tile148n_nt
+0.003424   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002336   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.011809   ms, void at::native::(anonymous namespace)::max_pool_forward_nchw<float, float>(int, float const*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, float*, long*)
+0.002592   ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.091043   ms, maxwell_scudnn_128x64_relu_interior_nn
+0.003456   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002272   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.006432   ms, void at::native::(anonymous namespace)::CatArrayBatchedCopy<float, unsigned int, 4, 128, 1>(float*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<float, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)
+0.002432   ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.077698   ms, maxwell_scudnn_128x128_relu_interior_nn
+0.003552   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002624   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.002432   ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.086467   ms, maxwell_scudnn_128x64_relu_interior_nn
+0.003648   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002433   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.014849   ms, void cudnn::winograd::generateWinogradTilesKernel<0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<float, float>)
+0.032192   ms, maxwell_scudnn_winograd_128x128_ldg1_ldg4_tile148n_nt
+0.004128   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002976   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.00304    ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.084258   ms, maxwell_scudnn_128x32_relu_interior_nn
+0.003361   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002273   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.00704    ms, void cudnn::winograd::generateWinogradTilesKernel<0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<float, float>)
+0.013121   ms, maxwell_scudnn_winograd_128x128_ldg1_ldg4_tile148n_nt
+0.003456   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002336   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.01152    ms, void at::native::(anonymous namespace)::max_pool_forward_nchw<float, float>(int, float const*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, float*, long*)
+0.002656   ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.090178   ms, maxwell_scudnn_128x64_relu_interior_nn
+0.003424   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002304   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.006464   ms, void at::native::(anonymous namespace)::CatArrayBatchedCopy<float, unsigned int, 4, 128, 1>(float*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<float, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)
+0.002432   ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.079554   ms, maxwell_scudnn_128x128_relu_interior_nn
+0.003808   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002656   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.002336   ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.088739   ms, maxwell_scudnn_128x64_relu_interior_nn
+0.003712   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002592   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.019744   ms, void cudnn::winograd::generateWinogradTilesKernel<0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<float, float>)
+0.035905   ms, maxwell_scudnn_winograd_128x128_ldg1_ldg4_tile148n_nt
+0.004512   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002912   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.00288    ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.086786   ms, maxwell_scudnn_128x32_relu_interior_nn
+0.003393   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002528   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.00512    ms, void cudnn::winograd::generateWinogradTilesKernel<0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<float, float>)
+0.012768   ms, maxwell_scudnn_winograd_128x128_ldg1_ldg4_tile148n_nt
+0.003552   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002433   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.011936   ms, void at::native::(anonymous namespace)::max_pool_forward_nchw<float, float>(int, float const*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, float*, long*)
+0.002656   ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.079426   ms, maxwell_scudnn_128x128_relu_interior_nn
+0.003585   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.0024     ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.008      ms, void at::native::(anonymous namespace)::CatArrayBatchedCopy<float, unsigned int, 4, 128, 1>(float*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<float, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)
+0.005344   ms, void at::native::(anonymous namespace)::max_pool_forward_nchw<float, float>(int, float const*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, float*, long*)
+0.002752   ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.108451   ms, maxwell_scudnn_128x128_relu_interior_nn
+0.0032     ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002304   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.0024     ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.13562    ms, maxwell_scudnn_128x64_relu_interior_nn
+0.003008   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.00256    ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.019296   ms, void cudnn::winograd::generateWinogradTilesKernel<0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<float, float>)
+0.033472   ms, maxwell_scudnn_winograd_128x128_ldg1_ldg4_tile148n_nt
+0.003488   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.003136   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.002912   ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.128804   ms, maxwell_scudnn_128x32_relu_interior_nn
+0.002784   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002272   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.005056   ms, void cudnn::winograd::generateWinogradTilesKernel<0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<float, float>)
+0.013472   ms, maxwell_scudnn_winograd_128x128_ldg1_ldg4_tile148n_nt
+0.00304    ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002368   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.006561   ms, void at::native::(anonymous namespace)::max_pool_forward_nchw<float, float>(int, float const*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, float*, long*)
+0.002592   ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.115651   ms, maxwell_scudnn_128x128_relu_interior_nn
+0.002976   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002304   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.005024   ms, void at::native::(anonymous namespace)::CatArrayBatchedCopy<float, unsigned int, 4, 128, 1>(float*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<float, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)
+0.002912   ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.110787   ms, maxwell_scudnn_128x128_relu_interior_nn
+0.003392   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002752   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.002368   ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.142212   ms, maxwell_scudnn_128x64_relu_interior_nn
+0.003104   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002561   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.024929   ms, void cudnn::winograd::generateWinogradTilesKernel<0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<float, float>)
+0.040065   ms, maxwell_scudnn_winograd_128x128_ldg1_ldg4_tile148n_nt
+0.003616   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002592   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.11258    ms, void im2col4d_kernel<float, int>(im2col4d_params, cudnnConvolutionStruct, cudnnTensor4dStruct, float const*, float*, int)
+0.056257   ms, void cudnn::detail::explicit_convolve_sgemm<float, int, 1024, 5, 5, 3, 3, 3, 0, true>(int, int, int, float const*, int, float const*, int, float*, kernel_conv_params, int, int, float, float, int, float*, float*)
+0.002784   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002336   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.005632   ms, void cudnn::winograd::generateWinogradTilesKernel<0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<float, float>)
+0.017601   ms, maxwell_scudnn_winograd_128x128_ldg1_ldg4_tile148n_nt
+0.002944   ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002369   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.006656   ms, void at::native::(anonymous namespace)::max_pool_forward_nchw<float, float>(int, float const*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, float*, long*)
+0.002944   ms, cudnn::maxwell::gemm::computeOffsetsKernel(cudnn::maxwell::gemm::ComputeOffsetsParams)
+0.11482    ms, maxwell_scudnn_128x128_relu_interior_nn
+0.00288    ms, void cudnn::detail::bn_fw_inf_1C11_kernel_NCHW<float, float, true, 1>(float, float, cudnnTensorStruct, float const*, cudnnTensorStruct, float*, cudnnTensorStruct, float const*, float const*, float const*, float const*, float)
+0.002273   ms, void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::clamp_min_scalar_kernel_impl(at::TensorIterator&, c10::Scalar)::{lambda()#1}::operator()() const::{lambda()#8}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)
+0.00528    ms, void at::native::(anonymous namespace)::CatArrayBatchedCopy<float, unsigned int, 4, 128, 1>(float*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<float, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)
+0.006688   ms, void at::native::reduce_kernel<512, 1, at::native::ReduceOp<float, at::native::MeanOps<float, float>, unsigned int, float, 4> >(at::native::ReduceOp<float, at::native::MeanOps<float, float>, unsigned int, float, 4>)
+0.002592   ms, [CUDA memcpy DtoD]
+0.000992   ms, [CUDA memcpy HtoD]
+0.02       ms, void gemv2T_kernel_val<int, int, float, float, float, 128, 16, 2, 2, false, cublasGemvParams<cublasGemvTensor<float const>, cublasGemvTensor<float>, float> >(cublasGemvParams<cublasGemvTensor<float const>, cublasGemvTensor<float>, float>, float, float)
+0.002496   ms, void (anonymous namespace)::elementwise_kernel_with_index<int, at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Tensor&)::{lambda()#1}::operator()() const::{lambda()#12}::operator()() const::{lambda(long)#1}>(int, at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Tensor&)::{lambda()#1}::operator()() const::{lambda()#12}::operator()() const::{lambda(long)#1}, function_traits<{lambda(long)#1}>::result_type*)
+0.00256    ms, [CUDA memcpy DtoD]
+0.002208   ms, [CUDA memcpy DtoD]
+0.027969   ms, void at::native::bitonicSortKVInPlace<float, long, -2, -1, GTComp<float, true>, unsigned int, 1024>(at::cuda::detail::TensorInfo<float, unsigned int>, unsigned int, unsigned int, unsigned int, at::cuda::detail::TensorInfo<long, unsigned int>, unsigned int, GTComp<float, true>)
+0.015937   ms, void (anonymous namespace)::softmax_warp_forward<float, float, float, 10, false>(float*, float const*, int, int, int)
+0.001696   ms, [CUDA memcpy DtoH]
+0.001312   ms, [CUDA memcpy DtoH]
+0.001088   ms, [CUDA memcpy DtoH]
+0.001088   ms, [CUDA memcpy DtoH]
+0.001087   ms, [CUDA memcpy DtoH]
+0.001088   ms, [CUDA memcpy DtoH]
+0.001088   ms, [CUDA memcpy DtoH]
+0.001088   ms, [CUDA memcpy DtoH]
+0.0016     ms, [CUDA memcpy DtoH]
+0.001248   ms, [CUDA memcpy DtoH]
+0.001088   ms, [CUDA memcpy DtoH]
+0.001184   ms, [CUDA memcpy DtoH]
+0.001088   ms, [CUDA memcpy DtoH]
+0.001087   ms, [CUDA memcpy DtoH]
+0.001088   ms, [CUDA memcpy DtoH]
